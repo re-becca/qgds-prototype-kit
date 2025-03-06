@@ -1,3 +1,27 @@
+/* Custom */
+.qld__footer .qld__footer__heading,
+a.qld__cta-link,
+.qld__main-nav.qld__main-nav--mega .qld__main-nav__menu-sub .qld__link-columns li .qld__main-nav__sub-item-text {
+	font-weight: 600 !important;
+}
+
+.qld__header__pre-header-url {
+	font-size: .875rem !important;
+}
+
+.qld__header__cta-link {
+	padding-left: 1.5rem !important;
+}
+
+.qld__header .qld__header__pre-header .qld__header__cta-wrapper .qld__header__cta-link-icon svg {
+	width: 1em !important;
+	height: 1em !important;
+	vertical-align: sub !important;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
 /* Slider */
 .slick-slider {
 	position: relative;
