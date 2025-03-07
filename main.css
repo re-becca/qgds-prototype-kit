@@ -10,7 +10,8 @@ a.qld__cta-link,
 }
 
 .qld__header__cta-link {
-	padding-left: 1.5rem !important;
+	margin-left: 1.5rem !important;
+	padding-left: 0 !important;
 }
 
 .qld__header .qld__header__pre-header .qld__header__cta-wrapper .qld__header__cta-link-icon svg {
@@ -18,6 +19,174 @@ a.qld__cta-link,
 	height: 1em !important;
 	vertical-align: sub !important;
 }
+
+.qld__main-nav__cta-wrapper {
+	position: inherit !important;
+}
+
+div.qld__mega-nav_mobile-filler-120 {
+	padding-bottom: 0 !important;
+}
+
+@media(min-width: 992px) {
+	.main-nav-individuals {
+		padding-bottom: 1px !important;
+		margin-top: 0px !important;
+		column-count: 2 !important;
+	}
+
+	section.main-nav-audience {
+		padding: 1.5rem 2rem 2rem;
+		border-radius: 12px;
+	}
+
+	section.main-nav-audience ul {
+		padding-bottom: 1px !important;
+		background-color: #E8E8E8 !important;
+		margin-top: 0.5em !important;
+	}
+}
+
+@media(max-width: 991px) {
+	.qld__main-nav.qld__main-nav--mega .qld__main-nav__menu-sub .qld__link-columns li .qld__main-nav__sub-item-text {
+		font-weight: normal !important;
+		font-size: inherit !important;
+	}
+
+	section.main-nav-audience {
+		background-color: #FFF !important;
+	}
+
+	section.main-nav-audience .qld__main-nav__sub-head{
+		padding: 0.875rem 1.5rem 0.9375rem 0.75rem;
+		border-bottom: 1px solid #E8E8E8;
+		border-left: 4px solid white;
+	}
+
+		section.main-nav-audience .qld__main-nav__sub-head .qld__display-md{
+			font-size: 1rem;
+		}
+
+		.qld__header__main .container-fluid {
+			height: 0;
+		}
+}
+
+.qld__main-nav.qld__main-nav--mega .qld__main-nav__menu-sub .qld__link-columns li a:hover {
+	background-color: inherit !important;
+}
+
+a.qld__tag,
+.qld__tag.qld__tag--link {
+	color: #09549F !important;
+	cursor: pointer !important;
+}
+
+a:hover.qld__tag,
+.qld__tag.qld__tag--link:hover {
+	text-decoration-color: #FFF !important;
+	color: #FFF !important;
+}
+
+/*   Block content banner style
+--------------------------------------------------------------------------------------------------------------------------------
+
+Custom css for banner designs .
+
+-------------------------------------------------------------------------------------------------------------------------------- */
+
+.qld__banner.qld__banner__advanced .qld__banner__content {
+		margin-left: 0 !important;
+}
+
+@media(min-width: 699px) {
+
+	/* Padding for content within the contained banner style */
+	.qld__banner.qld__banner__advanced .qld__banner__content {
+		margin-top: 3.5rem;
+		margin-bottom: 3.5rem;
+		padding: 3rem;
+		position: relative;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	/* Light coloured background container */
+	.qld__banner.qld__banner__advanced .qld__banner__content {
+	border-radius: 0.75rem 0.75rem 2.5rem 0.75rem;
+	opacity: 0.95;
+	-webkit-box-shadow: 0px 1px 2px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%);
+	box-shadow: 0px 1px 2px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%);
+	}
+
+	/* Alt coloured background container */
+	.qld__banner.qld__banner__advanced.qld__banner--alt .qld__banner__content:before{
+	content: "";
+	background-color: var(--QLD-color-light__background--alt);
+	width: 100%;
+	height: 100%;
+	position: ABSOLUTE;
+	border-radius: 0.75rem 0.75rem 2.5rem 0.75rem;
+	opacity: 0.95;
+	top:0;
+	left:0;
+	-webkit-box-shadow: 0px 1px 2px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%);
+	box-shadow: 0px 1px 2px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%);
+	}
+
+
+	/* Dark coloured background container */
+
+	.qld__banner.qld__banner__advanced.qld__banner--dark .qld__banner__content {
+	background-color: var(--QLD-color-dark__background);
+	border-radius: 0.75rem 0.75rem 2.5rem 0.75rem;
+	opacity: 0.95;
+	-webkit-box-shadow: 0px 1px 2px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%);
+	box-shadow: 0px 1px 2px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%);
+	}
+
+
+	/* Dark-alt coloured background container */
+
+	.qld__banner.qld__banner__advanced.qld__banner--dark-alt .qld__banner__content:before{
+		content: "";
+		background-color: var(--QLD-color-dark__background--alt);
+		width: 100%;
+		height: 100%;
+		position: ABSOLUTE;
+		border-radius: 0.75rem 0.75rem 2.5rem 0.75rem;
+		opacity: 0.95;
+		top:0;
+		left:0;
+		-webkit-box-shadow: 0px 1px 2px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%);
+		box-shadow: 0px 1px 2px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%);
+	}
+
+
+}
+
+@media(min-width: 992px) {
+	.qld__banner.qld__banner--has-hero .qld__banner__content {
+		padding-right: 4rem !important;
+	}
+	.special-card {
+		margin-top: 2em !important;
+	}
+}
+
+@media (min-width: 1400px) {
+	.qld__banner.qld__banner__advanced .qld__banner__content {
+		margin-left: 0 !important;
+	}
+}
+
+@media (max-width: 698px) {
+	.qld__banner__content {
+		width: 100% !important;
+	}
+}
+
+
 
 
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
