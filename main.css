@@ -1,4 +1,5 @@
 /* Custom */
+
 .qld__footer .qld__footer__heading,
 a.qld__cta-link,
 .qld__main-nav.qld__main-nav--mega .qld__main-nav__menu-sub .qld__link-columns li .qld__main-nav__sub-item-text {
@@ -87,6 +88,13 @@ a:hover.qld__tag,
 	text-decoration-color: #FFF !important;
 	color: #FFF !important;
 }
+
+@media(max-width: 698px) {
+	.card-top-margin {
+		margin-top: 1.5rem;
+	}
+}
+
 
 /*   Block content banner style
 --------------------------------------------------------------------------------------------------------------------------------
