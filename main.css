@@ -107,6 +107,14 @@ a:hover.qld__tag,
 	}
 }
 
+.qld__body .qld__accordion__body-wrapper {
+	background-color: #FFF !important;
+}
+
+.qld__body .qld__accordion__title {
+	border-top: none !important;
+}
+
 
 /*   Block content banner style
 --------------------------------------------------------------------------------------------------------------------------------

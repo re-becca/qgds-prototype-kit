@@ -50,9 +50,10 @@
 				}
 			}
 
-			body a.qld__btn.qld__btn--floating.qld__btn--back-to-top::after {
-				color: #022A50 !important;
+			.qld__accordion-group {
+				max-width: 100% !important;
 			}
+
 
 		</style>
 	</head>
@@ -160,7 +161,7 @@
 						<!-- Header brand section -->
 						<div class="qld__header__brand">
 
-							<a href="#">
+							<a href="home-two.html">
 								<!-- QLD Government logo -->
 								<div class="qld__header__brand-image" style="border-right: none;">
 									<svg width="330" height="55" viewBox="0 0 330 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -387,8 +388,8 @@
 									<li class="qld__main-nav__item">
 
 										<div class="qld__main-nav__item-title">
-											<a class="qld__main-nav__item-link qld__main-nav__item-link--desktop-hide"href="components.html">Individuals</a>
-											<button class="qld__main-nav__item-toggle qld__accordion--closed" aria-controls="mega-nav-/individuals.html" aria-expanded="false" aria-selected="false" aria-label="Toggle navigation, Components"><span class="qld__main-nav__item-toggle-text" data-name="=Individuals">Individuals</span>
+											<a class="qld__main-nav__item-link qld__main-nav__item-link--desktop-hide" href="components.html">Information and services</a>
+											<button class="qld__main-nav__item-toggle qld__accordion--closed" aria-controls="mega-nav-/individuals.html" aria-expanded="false" aria-selected="false" aria-label="Toggle navigation, Components"><span class="qld__main-nav__item-toggle-text" data-name="=Menu"  style="width: 60px;">Menu</span>
 												<svg class="qld__icon qld__icon--xs" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill="currentColor"
 														d="M13.0021 2.17061L1.85569 13.6745C1.64284 13.8944 1.38689 14.0029 1.08785 13.9999C0.788555 13.9972 0.532485 13.8859 0.319635 13.6659C0.106544 13.4463 1.30824e-08 13.182 0 12.8731C-1.30719e-08 12.5644 0.106544 12.3001 0.319635 12.0802L11.3603 0.693715C11.5936 0.452909 11.8537 0.27709 12.1407 0.166254C12.428 0.0554185 12.7151 1.29484e-08 13.0021 0C13.2891 -1.29484e-08 13.5763 0.0554184 13.8635 0.166254C14.1505 0.27709 14.4107 0.452909 14.644 0.693715L25.6846 12.0891C25.8977 12.3088 26.0028 12.5716 25.9999 12.8775C25.9973 13.1835 25.8894 13.4463 25.6763 13.6659C25.4635 13.8859 25.2074 13.9958 24.9081 13.9958C24.6091 13.9958 24.353 13.8859 24.1399 13.6659L13.0021 2.17061Z" />
@@ -402,22 +403,20 @@
 
 												<div class="row">
 													<div class="col-xs-12 col-lg-8">
-														<div class="qld__main-nav__sub-head">
-															<a class="qld__main-nav__sub-heading " href="individuals.html">
-																<span class="qld__main-nav__sub-item-text qld__display-lg">Individuals</span>
-																<svg class="qld__icon qld__icon--sm" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path fill="currentColor"
-																		d="M18.8795 11.9591H0.941055C0.669685 11.9591 0.445001 11.8687 0.267 11.6881C0.0890003 11.5077 0 11.2802 0 11.0054C0 10.7305 0.0890003 10.5028 0.267 10.3224C0.445001 10.142 0.669685 10.0518 0.941055 10.0518H18.8795L10.5639 1.63557C10.3847 1.44609 10.2924 1.22435 10.2872 0.970363C10.2817 0.716371 10.3766 0.491851 10.5718 0.296804C10.767 0.101503 10.9878 0.0025877 11.2342 5.7901e-05C11.4806 -0.00272488 11.7015 0.0947997 11.8967 0.29263L21.6495 10.1755C21.7716 10.2995 21.8606 10.4286 21.9165 10.563C21.9722 10.6976 22 10.8454 22 11.0066C22 11.168 21.9722 11.3155 21.9165 11.449C21.8606 11.5826 21.7716 11.7114 21.6495 11.8353L11.8967 21.7183C11.7162 21.9012 11.4997 21.995 11.2473 21.9998C10.9947 22.0046 10.7695 21.9108 10.5718 21.7183C10.3766 21.5176 10.2789 21.2919 10.2789 21.0409C10.2789 20.7899 10.3766 20.5687 10.5718 20.3772L18.8795 11.9591Z" />
-																</svg>
-															</a>
+														<div class="qld__main-nav__sub-head mobile-hide">
+															<span class="qld__main-nav__sub-item-text qld__display-lg menu-hide-mobile">Information and services	</span>
 															<!-- <p class="qld__main-nav__item-desc">This is level one short description</p> -->
 														</div>
 
-														<hr class="qld__horizontal-rule qld__horizontal-rule--lg">
-														<ul class="qld__link-columns qld__link-columns--3-col qld__link-list main-nav-individuals">
+														<ul class="qld__link-columns qld__link-columns--3-col qld__link-list main-nav-individuals main-nav-infoservices">
 															<li class="">
 																<a href="#">
 																	<span class="qld__main-nav__sub-item-text">Births, deaths, marriages and adoption</span>
+																</a>
+															</li>
+															<li class="">
+																<a href="#">
+																	<span class="qld__main-nav__sub-item-text">Business</span>
 																</a>
 															</li>
 															<li class="">
@@ -472,7 +471,7 @@
 															</li>
 														</ul>
 													</div>
-													<div class="col-xs-12 col-lg-4">
+													<div class="col-xs-12 col-lg-4 mobile-hide">
 														<!-- TAGS OPTION <span class="qld__main-nav__sub-item-text qld__display-lg">Browse by audience</span>
 														<ul class="qld__tag-list">
 															<li><a class="qld__tag qld__tag--large qld__tag--link" role="link">Aboriginal and Torres Strait Islander people</a></li>
@@ -542,158 +541,77 @@
 											</div>
 										</div>
 									</li>
-									<li class="qld__main-nav__item">
+									<li class="qld__main-nav__item desktop-hide">
+
 										<div class="qld__main-nav__item-title">
-											<a class="qld__main-nav__item-link qld__main-nav__item-link--desktop-hide" href="businesses.html">Businesses</a>
-											<button class="qld__main-nav__item-toggle qld__accordion--closed" aria-controls="mega-nav-/businesses.html"
-												aria-expanded="false" aria-selected="false" aria-label="Toggle navigation, Businesses"><span
-													class="qld__main-nav__item-toggle-text" data-name="Businesses">Businesses</span>
+											<a class="qld__main-nav__item-link qld__main-nav__item-link--desktop-hide" href="#">Browse by audience</a>
+											<button class="qld__main-nav__item-toggle qld__accordion--closed" aria-controls="mega-nav-/audience.html"
+												aria-expanded="false" aria-selected="false" aria-label="Toggle navigation, Audience"><span
+													class="qld__main-nav__item-toggle-text" data-name="=Audience">Browse by audience</span>
 												<svg class="qld__icon qld__icon--xs" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill="currentColor"
 														d="M13.0021 2.17061L1.85569 13.6745C1.64284 13.8944 1.38689 14.0029 1.08785 13.9999C0.788555 13.9972 0.532485 13.8859 0.319635 13.6659C0.106544 13.4463 1.30824e-08 13.182 0 12.8731C-1.30719e-08 12.5644 0.106544 12.3001 0.319635 12.0802L11.3603 0.693715C11.5936 0.452909 11.8537 0.27709 12.1407 0.166254C12.428 0.0554185 12.7151 1.29484e-08 13.0021 0C13.2891 -1.29484e-08 13.5763 0.0554184 13.8635 0.166254C14.1505 0.27709 14.4107 0.452909 14.644 0.693715L25.6846 12.0891C25.8977 12.3088 26.0028 12.5716 25.9999 12.8775C25.9973 13.1835 25.8894 13.4463 25.6763 13.6659C25.4635 13.8859 25.2074 13.9958 24.9081 13.9958C24.6091 13.9958 24.353 13.8859 24.1399 13.6659L13.0021 2.17061Z" />
 												</svg>
 											</button>
-
 										</div>
-										<div class="qld__main-nav__menu-sub qld__accordion__body qld__accordion--closed" id="mega-nav-/businesses.html"
-											style="">
+
+										<div class="qld__main-nav__menu-sub qld__accordion__body qld__accordion--closed" id="mega-nav-/audience.html">
 											<div class="qld__main-nav__menu-sub-inner">
-												<div class="qld__main-nav__sub-head">
-													<a class="qld__main-nav__sub-heading " href="businesses.html">
-														<span class="qld__main-nav__sub-item-text qld__display-lg">Businesses</span>
-														<svg class="qld__icon qld__icon--sm" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill="currentColor"
-																d="M18.8795 11.9591H0.941055C0.669685 11.9591 0.445001 11.8687 0.267 11.6881C0.0890003 11.5077 0 11.2802 0 11.0054C0 10.7305 0.0890003 10.5028 0.267 10.3224C0.445001 10.142 0.669685 10.0518 0.941055 10.0518H18.8795L10.5639 1.63557C10.3847 1.44609 10.2924 1.22435 10.2872 0.970363C10.2817 0.716371 10.3766 0.491851 10.5718 0.296804C10.767 0.101503 10.9878 0.0025877 11.2342 5.7901e-05C11.4806 -0.00272488 11.7015 0.0947997 11.8967 0.29263L21.6495 10.1755C21.7716 10.2995 21.8606 10.4286 21.9165 10.563C21.9722 10.6976 22 10.8454 22 11.0066C22 11.168 21.9722 11.3155 21.9165 11.449C21.8606 11.5826 21.7716 11.7114 21.6495 11.8353L11.8967 21.7183C11.7162 21.9012 11.4997 21.995 11.2473 21.9998C10.9947 22.0046 10.7695 21.9108 10.5718 21.7183C10.3766 21.5176 10.2789 21.2919 10.2789 21.0409C10.2789 20.7899 10.3766 20.5687 10.5718 20.3772L18.8795 11.9591Z" />
-														</svg>
-													</a>
-													<!-- <p class="qld__main-nav__item-desc">This is level one short description</p> -->
+												<div class="row">
+													<div class="col-xs-12 col-lg-8">
+														<div class="qld__main-nav__sub-head">
+															<div class="qld__main-nav__sub-head">
+																<span class="qld__main-nav__sub-item-text qld__display-md mobile-hide">Browse by audience
+																</span>
+															</div>
+															<!-- <p class="qld__main-nav__item-desc">This is level one short description</p> -->
+														</div>
+
+														<ul class="qld__link-columns qld__link-columns--3-col qld__link-list main-nav-individuals">
+															<li class="">
+																<a href="#">
+																	<span class="qld__main-nav__sub-item-text">Aboriginal and Torres Strait Islander people</span>
+																</a>
+															</li>
+															<li class="">
+																<a href="#">
+																	<span class="qld__main-nav__sub-item-text">Moving to Queensland</span>
+																</a>
+															</li>
+															<li class="">
+																<a href="#">
+																	<span class="qld__main-nav__sub-item-text">Parents and families</span>
+																</a>
+															</li>
+															<li class="">
+																<a href="#">
+																	<span class="qld__main-nav__sub-item-text">People with disability</span>
+																</a>
+															</li>
+															<li class="">
+																<a href="#">
+																	<span class="qld__main-nav__sub-item-text">Seniors</span>
+																</a>
+															</li>
+															<li class="">
+																<a href="#">
+																	<span class="qld__main-nav__sub-item-text">Veterans</span>
+																</a>
+															</li>
+															<li class="">
+																<a href="#">
+																	<span class="qld__main-nav__sub-item-text">Women</span>
+																</a>
+															</li>
+															<li class="">
+																<a href="#">
+																	<span class="qld__main-nav__sub-item-text">Youth</span>
+																</a>
+															</li>
+														</ul>
+													</div>
 												</div>
 
-												<hr class="qld__horizontal-rule qld__horizontal-rule--lg">
-												<ul class="qld__link-columns qld__link-columns--3-col qld__link-list" style="padding-bottom: 1px;">
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Starting a business</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Running a business</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Employing people</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Payroll tax</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Industries</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Investing in Queensland</span>
-														</a>
-													</li>
-												</ul>
-												<!-- <div class="qld__main-nav__sub-footer">
-													<hr class="qld__horizontal-rule qld__horizontal-rule--lg">
-													<a class="qld__cta-link qld__cta-link--view-all" href="#">View
-														all</a>
-												</div> -->
-											</div>
-										</div>
-									</li>
-									<li class="qld__main-nav__item  ">
-										<div class="qld__main-nav__item-title">
-											<a class="qld__main-nav__item-link qld__main-nav__item-link--desktop-hide" href="government-employees.html">Government employees</a>
-											<button class="qld__main-nav__item-toggle qld__accordion--closed" aria-controls="mega-nav-/government-employees.html"
-												aria-expanded="false" aria-selected="false" aria-label="Toggle navigation, Government employees"><span
-													class="qld__main-nav__item-toggle-text" data-name="Government employees">Government employees</span>
-												<svg class="qld__icon qld__icon--xs" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill="currentColor"
-														d="M13.0021 2.17061L1.85569 13.6745C1.64284 13.8944 1.38689 14.0029 1.08785 13.9999C0.788555 13.9972 0.532485 13.8859 0.319635 13.6659C0.106544 13.4463 1.30824e-08 13.182 0 12.8731C-1.30719e-08 12.5644 0.106544 12.3001 0.319635 12.0802L11.3603 0.693715C11.5936 0.452909 11.8537 0.27709 12.1407 0.166254C12.428 0.0554185 12.7151 1.29484e-08 13.0021 0C13.2891 -1.29484e-08 13.5763 0.0554184 13.8635 0.166254C14.1505 0.27709 14.4107 0.452909 14.644 0.693715L25.6846 12.0891C25.8977 12.3088 26.0028 12.5716 25.9999 12.8775C25.9973 13.1835 25.8894 13.4463 25.6763 13.6659C25.4635 13.8859 25.2074 13.9958 24.9081 13.9958C24.6091 13.9958 24.353 13.8859 24.1399 13.6659L13.0021 2.17061Z" />
-												</svg>
-											</button>
-
-										</div>
-										<div class="qld__main-nav__menu-sub qld__accordion__body qld__accordion--closed" id="mega-nav-/government-employees.html"
-											style="">
-											<div class="qld__main-nav__menu-sub-inner">
-												<div class="qld__main-nav__sub-head">
-													<a class="qld__main-nav__sub-heading " href="government-employees.html">
-														<span class="qld__main-nav__sub-item-text qld__display-lg">Government employees</span>
-														<svg class="qld__icon qld__icon--sm" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill="currentColor"
-																d="M18.8795 11.9591H0.941055C0.669685 11.9591 0.445001 11.8687 0.267 11.6881C0.0890003 11.5077 0 11.2802 0 11.0054C0 10.7305 0.0890003 10.5028 0.267 10.3224C0.445001 10.142 0.669685 10.0518 0.941055 10.0518H18.8795L10.5639 1.63557C10.3847 1.44609 10.2924 1.22435 10.2872 0.970363C10.2817 0.716371 10.3766 0.491851 10.5718 0.296804C10.767 0.101503 10.9878 0.0025877 11.2342 5.7901e-05C11.4806 -0.00272488 11.7015 0.0947997 11.8967 0.29263L21.6495 10.1755C21.7716 10.2995 21.8606 10.4286 21.9165 10.563C21.9722 10.6976 22 10.8454 22 11.0066C22 11.168 21.9722 11.3155 21.9165 11.449C21.8606 11.5826 21.7716 11.7114 21.6495 11.8353L11.8967 21.7183C11.7162 21.9012 11.4997 21.995 11.2473 21.9998C10.9947 22.0046 10.7695 21.9108 10.5718 21.7183C10.3766 21.5176 10.2789 21.2919 10.2789 21.0409C10.2789 20.7899 10.3766 20.5687 10.5718 20.3772L18.8795 11.9591Z"
-																 />
-														</svg>
-													</a>
-													<!-- <p class="qld__main-nav__item-desc">This is level one short description</p> -->
-												</div>
-
-												<hr class="qld__horizontal-rule qld__horizontal-rule--lg">
-												<ul class="qld__link-columns qld__link-columns--3-col qld__link-list" style="padding-bottom: 1px;">
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Pay, benefits and policy</span>
-														</a>
-														<!-- <p class="qld__main-nav__item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-															Aenean vitae mattis lorem, a pharetra augue. Etiam molestie fringilla justo, quis dignissim nisl
-															mollis ac</p> -->
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Recruitment, performance and career</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Finance and procurement</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Information and communication technology</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Service delivery and community support</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Facilities, vehicles and couriers</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Property, land and infrastructure</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">News, events and collaboration</span>
-														</a>
-													</li>
-													<li class="">
-														<a href="#">
-															<span class="qld__main-nav__sub-item-text">Projects and initiatives</span>
-														</a>
-													</li>
-												</ul>
-												<!-- <div class="qld__main-nav__sub-footer">
-													<hr class="qld__horizontal-rule qld__horizontal-rule--lg">
-													<a class="qld__cta-link qld__cta-link--view-all" href="#">View
-														all</a>
-												</div> -->
 											</div>
 										</div>
 									</li>
@@ -752,456 +670,200 @@
 			<!-- MAIN BODY -->
 			<main class="main" role="main">
 
-					<!--@@ Banner @@-->
-					<section id="banner-advanced-230387" class=" qld__banner qld__banner__advanced qld__banner--dark qld__banner--has-hero qld__banner--hero-right ">
+					<!--
+					  Default (White):  <section class="qld__banner">
+					  Light:            <section class="qld__banner qld__banner--alt">
+					  Alt:              <section class="qld__banner qld__banner--alt">
+					  Dark:             <section class="qld__banner qld__banner--dark">
+					  Dark-alt:         <section class="qld__banner qld__banner--dark-alt">
+					-->
+
+					<style>
+						.qld__banner--texture-dark {
+							background-image: url();
+						}
+
+						.qld__banner--background-image-alt {
+							background-image: url();
+						}
+					</style>
+
+					<!-- Dark Basic banner -->
+					<section class="qld__banner qld__banner__basic qld__banner--dark qld__banner--breadcrumbs qld__banner--texture-dark">
+
+						<!-- Mobile breadcrumbs -->
+						<nav class="qld__breadcrumbs qld__banner__breadcrumbs qld__banner__breadcrumbs--mobile" aria-label="breadcrumb">
+							<div class="qld__link-list qld__link-list--inline">
+								<div class="qld__breadcrumbs__item">
+									<a href="home-two.html" class="qld__breadcrumbs__link">
+										Home
+									</a>
+								</div>
+							</div>
+						</nav>
 
 						<div class="container-fluid">
 							<div class="qld__banner__wrapper">
-
 								<div class="qld__banner__main row">
-									<div class="qld__banner__hero col-xs-12 col-md-7 col-lg-5 col-xl-4 ">
+									<div class="qld__banner__content col-xs-12">
 
-									<div class="qld__banner__image qld__banner__image--mobile-hide" style="background-image: url('./?a=');" role="img" aria-label="">
-									</div>
-											<div class="qld__banner__image qld__banner__image--background qld__banner__image--desktop-hide" style="background-image: url('img/homepage-banner/caleb-gYUK48mFopg-unsplash.jpg');" role="img" aria-label="">
+										<!-- Tablet breadcrumbs -->
+										<nav class="qld__breadcrumbs qld__banner__breadcrumbs qld__banner__breadcrumbs--tablet" aria-label="breadcrumb">
+											<div class="qld__link-list qld__link-list--inline">
+												<div class="qld__breadcrumbs__item">
+													<a href="home-two.html" class="qld__breadcrumbs__link">
+														Home
+													</a>
+												</div>
 											</div>
-									</div>
+										</nav>
 
-									<div class="qld__banner__content col-xs-10 col-lg-9 col-xl-8">
-										<!--@@ Heading(s) @@-->
-										<h1>Queensland Government</h1> <!--@@ Abstract @@-->
-										<div class="qld__banner__content--body qld__abstract">Find government information and services quickly and easily</div>
-										<!--@@ CTA Search @@-->
-										<div class="qld__header__search" id="qld-header-search">
-											<div class="qld__main-nav__focus-trap-top"></div>
+										<!-- Desktop breadcrumbs -->
+										<nav
+											class="qld__breadcrumbs qld__breadcrumbs--dark qld__banner__breadcrumbs qld__banner__breadcrumbs--desktop"
+											aria-label="breadcrumb">
+											<ol class="qld__breadcrumbs__list--desktop qld__link-list qld__link-list--inline">
+												<li class="qld__breadcrumbs__item">
+													<a href="home-two.html" class="qld__breadcrumbs__link">Home</a>
+												</li>
+												<li class="qld__breadcrumbs__item" aria-current="page">
+													Housing
+												</li>
+											</ol>
+										</nav>
 
-											<div class="qld__search-form--wrapper">
-												<form role="search" aria-label="sitewide" class="qld__search-form" id="search-input-global-header" action="#">
-													<label for="search-input-global-header-query" class="qld__label qld__display-lg qld__search-form__label">Search
-														this website</label>
-													<div class="qld__search-form__inner" style="margin-top: 1.5rem;">
-														<input type="search" id="search-input-global-header-query" placeholder="Search qld.gov.au" name="query"
-															class="qld__text-input data-hj-allow" autocomplete="off">
-														<input type="text" placeholder="Search qld.gov.au" id="search" name="search" autocomplete="off" tabindex="-1"
-															class="qld__text-input--validation">
-														<div class="qld__search-form__btn">
-															<button class="qld__btn qld__btn--search" type="submit" aria-label="Search">
-																<span class="qld__btn__icon"></span>
-																<span class="qld__btn__text">Search</span>
-															</button>
-														</div>
-													</div>
-												</form>
-											</div>
-											<div class="qld__main-nav__focus-trap-bottom"></div>
+										<h1>Housing</h1>
+										<div class="qld__banner__content--body qld__abstract">
+											<p>Renting, owning a home, building, buying and selling, public and aged care housing.</p>
 										</div>
 									</div>
 								</div>
-
 							</div>
 						</div>
 
 					</section>
 
+
+
 					<!--POPULAR SEARCHES-->
-					<section class="qld__body qld__body--full-width qld__body">
+					<section class="qld__body qld__body--full-width qld__body--light">
 
 						<div class="container-fluid">
-							<h2>Popular searches</h2>
-
-							<ul aria-label="Related links" class="qld__link-columns qld__link-columns--3-col">
-								<li><a href="#a">Renew vehicle or boat rego</a></li>
-								<li><a href="#c">Get or update driver license</a></li>
-								<li><a href="#b">Public holidays</a></li>
-								<li><a href="#d">Apply for a Seniors Card</a></li>
-								<li><a href="#e">Change address details</a></li>
-								<li><a href="#f">Find a job</a></li>
-							</ul>
-							<p>Browse our <a href="#fulllist">full list of information and services</a> to find more.</p>
+							<div class="row">
+								<div class="col-xs-12 col-md-12 col-lg-10">
+									<h2>Popular pages</h2>
+									<ul class="qld__tag-list">
+										<li><a class="qld__tag qld__tag--large qld__tag--link" role="link">Housing after a disaster</a></li>
+										<li><a class="qld__tag qld__tag--large qld__tag--link" role="link">Home insurance</a></li>
+										<li><a class="qld__tag qld__tag--large qld__tag--link" role="link">Housing in a crisis</a></li>
+										<li><a class="qld__tag qld__tag--large qld__tag--link" role="link">Community housing</a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 
 					</section>
 
-					<!--INFO AND SERVICES-->
+
+					<!--TOPICS-->
 					<a name="fulllist"></a>
-					<section class="qld__body qld__body--light">
+					<section class="qld__body">
 
 						<div class="container-fluid">
 
 							<div class="row">
-								<div class="col-xs-12 col-md-12 col-lg-8" style="margin-bottom: 3em;">
+								<div class="qld__card-intro col-xs-12">
+									<h2>Housing topics</h2>
+								</div>
+							</div>
 
-									<div class="row">
-										<div class="qld__card-intro col-xs-12">
-											<h2>Information and services</h2>
+							<div class="row">
+								<div class="col-xs-12 col-md-12 col-lg-9">
+
+									<div class="qld__accordion-group default" id="accordion-123">
+										<div class="qld__accordion">
+											<h3>
+												<button class="qld__accordion__title js-qld__accordion qld__accordion--closed"
+													aria-controls="accordion-group-123-content_1" aria-expanded="true" type="button">
+													Renting
+												</button>
+											</h3>
+											<div class="qld__accordion__body qld__accordion--closed" id="accordion-group-123-content_1" style="">
+												<div class="qld__accordion__body-wrapper">
+													<ul aria-label="Related links" class="qld__link-columns qld__link-columns--2-col" style="margin-left: 0;">
+														<li><a href="#">Help to find a rental home</a></li>
+														<li><a href="#">Help with your current rental home</a></li>
+														<li><a href="#">Residential services (rooming accommodation)</a></li>
+														<li><a href="#">Owning or managing a rental property</a></li>
+													</ul>
+												</div>
+											</div>
 										</div>
-									</div>
-
-									<div class="row">
-										<ul class="qld__card-list qld__card-list--matchheight">
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Births, deaths, marriages and adoption</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Includes divorce, civil partnership, wills, change of name, and family history.
-																</p>
-															</div>
-														</div>
-													</div>
+										<div class="qld__accordion">
+											<h3>
+												<button class="qld__accordion__title js-qld__accordion qld__accordion--closed"
+													aria-controls="accordion-group-123-content_2" aria-expanded="false" type="button">
+													Public and community housing
+												</button>
+											</h3>
+											<div class="qld__accordion__body qld__accordion--closed" id="accordion-group-123-content_2">
+												<div class="qld__accordion__body-wrapper">
+													<ul aria-label="Related links" class="qld__link-columns qld__link-columns--2-col" style="margin-left: 0;">
+														<li><a href="#">Eligibility and applying for housing</a></li>
+														<li><a href="#">Public housing tenants</a></li>
+														<li><a href="#">Contact a Housing Service Centre</a></li>
+														<li><a href="#">Community housing</a></li>
+														<li><a href="#">Housing in remote communities</a></li>
+														<li><a href="#">Complaints</a></li>
+														<li><a href="#">Housing help for people experiencing violence</a></li>
+														<li><a href="#">Disruptive behaviour</a></li>
+														<li><a href="#">Forms for social housing tenants</a></li>
+													</ul>
 												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Business</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Support and tools for business owners and industry sectors.
-																</p>
-															</div>
-														</div>
-													</div>
+											</div>
+										</div>
+										<div class="qld__accordion">
+											<h3>
+												<button class="qld__accordion__title js-qld__accordion qld__accordion--closed"
+													aria-controls="accordion-group-123-content_3" aria-expanded="false" type="button">
+													Emergency and temporary housing
+												</button>
+											</h3>
+											<div class="qld__accordion__body qld__accordion--closed" id="accordion-group-123-content_3">
+												<div class="qld__accordion__body-wrapper">
+													<ul aria-label="Related links" class="qld__link-columns qld__link-columns--2-col" style="margin-left: 0;">
+														<li><a href="#">Housing help after a disaster</a></li>
+														<li><a href="#">Homeless Hotline</a></li>
+														<li><a href="#">Housing options in a crisis</a></li>
+														<li><a href="#">People experiencing violence</a></li>
+													</ul>
 												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Education</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Includes schools, further education, apprenticeships and career development.
-																</p>
-															</div>
-														</div>
-													</div>
+											</div>
+										</div>
+										<div class="qld__accordion">
+											<h3>
+												<button class="qld__accordion__title js-qld__accordion qld__accordion--closed"
+													aria-controls="accordion-group-123-content_4" aria-expanded="false" type="button">
+													Programs and support
+												</button>
+											</h3>
+											<div class="qld__accordion__body qld__accordion--closed" id="accordion-group-123-content_4">
+												<div class="qld__accordion__body-wrapper">
+													<ul aria-label="Related links" class="qld__link-columns qld__link-columns--2-col" style="margin-left: 0;">
+														<li><a href="#">Health and counselling services</a></li>
+														<li><a href="#">Food and daily needs</a></li>
+														<li><a href="#">Legal and justice support</a></li>
+														<li><a href="#">Literacy and life skills</a></li>
+														<li><a href="#">Housing support for employment and education</a></li>
+													</ul>
 												</div>
-											</li>
+											</div>
+										</div>
 
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Emergencies and disasters</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Emergency alerts, disaster information, and community support.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Environment</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Land and property, natural resources, national parks, plants and animals.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Financial help and concessions</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Access a range of concessions and rebates to help with household and other expenses.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Health</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Includes public health care services, well being and medical cover.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Housing</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Renting, owning a home, building, buying and selling, public and aged care housing.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Jobs and work</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Employers and employees, finding work, graduate programs, tax and superannuation.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Law and crime</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Legal system, consumer rights, crime and police, courts, fines and victim services.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Recreation, sport and arts</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Includes outdoor activities, holidays and travel, culture and heritage.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Transport</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Includes licences, registrations, buying or selling, public transport and roads.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-										</ul>
 									</div>
 
 								</div>
 
-								<div class="col-xs-12 col-md-12 col-lg-4">
-
-									<div class="row">
-										<div class="qld__card-intro col-xs-12">
-											<h2>Featured</h2>
-										</div>
-									</div>
-
-									<div class="row">
-										<ul class="qld__card-list qld__card-list--matchheight">
-
-											<li class="col-xs-12  col-md-6 col-lg-12">
-												<!-- QLD Single action default with image -->
-												<div class="qld__card qld__card--dark qld__card__action qld__card--image">
-													<!-- Image -->
-													<div class="qld__responsive-media-img--bg" role="img" aria-label="A customer smiling at his two children"
-														style="background-image: url('img/myqld-beta.jpg');">
-													</div>
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="#section__usage-guidelines">myQld (Beta)</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Access and manage your online services securely in one place.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6 col-lg-12 special-card">
-												<!-- QLD Single action default with image -->
-												<div class="qld__card qld__card--dark qld__card__action qld__card--image">
-													<!-- Image -->
-													<div class="qld__responsive-media-img--bg" role="img" aria-label="A customer smiling at his two children"
-														style="background-image: url('img/get-ready.png');">
-													</div>
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="#section__usage-guidelines">Weather doesn't plan but you can</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Make your emergency plan online today.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12 col-md-6 col-lg-12">
-												<!-- QLD Single action default with image -->
-												<div class="qld__card qld__card--dark qld__card__action qld__card--image">
-													<!-- Image -->
-													<div class="qld__responsive-media-img--bg" role="img" aria-label="A customer smiling at his two children"
-														style="background-image: url('img/qld-safer.png');">
-													</div>
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="#section__usage-guidelines">Making Queensland Safer</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Restoring safety where you live.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-										</ul>
-									</div>
-
-								</div>
 							</div>
 
 						</div>
@@ -1210,165 +872,38 @@
 					</section>
 
 					<!--STAY INFORMED-->
-					<section class="qld__body qld__body--full-width qld__body">
+					<section class="qld__body qld__body--full-width qld__body--alt">
 
 						<div class="container-fluid">
 
 							<div class="row">
 								<div class="qld__card-intro col-xs-12">
-									<h2>Stay informed</h2>
-									<p>Latest news and updates about what the government is doing.</p>
-								</div>
-							</div>
-
-							<div class="row">
-
-								<!-- Featured card (larger with image) - takes up 5 columns on larger screens -->
-								<div class="col-xs-12 col-md-5">
-
-									<div class="qld__card qld__card__action qld__card--image">
-
-										<div class="qld__responsive-media-img--bg" style="background-image: url('img/youth-week.jpg');">
-										</div>
-
-										<div class="qld__card__inner">
-											<div class="qld__card__content">
-												<div class="qld__card__content-inner">
-													<h3 class="qld__card__title">
-														<a aria-label="Queensland Youth Week 2025" aria-describedby="" class="qld__card--clickable__link"
-															href="#">Queensland Youth Week 2025</a>
-													</h3>
-													<p class="qld__card__description">
-														Mark your calendar! This year Queensland Youth Week will run from 6-12 April.
-													</p>
-													<p class="qld__card__description">Queensland Youth Week (QYW) is a statewide celebration of the talents, achievements, and contributions of young
-													Queenslanders aged 12–25.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-
-								<!-- Right side container for the 2x2 grid - takes up 7 columns -->
-								<div class="col-xs-12 col-md-7 card-top-margin">
-									<div class="row">
-										<ul class="qld__card-list qld__card-list--matchheight">
-
-											<li class="col-xs-12">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">2024-25 Budget update</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	The 2024-25 Mid-Year Fiscal and Economic Review provides an update on Queensland’s economic and fiscal
-																	position since the 2024-25 Budget.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Find registered accommodation</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	Search for boarding houses, rentals for seniors and supported accommodation registered with the Queensland Government.
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-											<li class="col-xs-12">
-												<!-- QLD Single action -->
-												<div class="qld__card qld__card__action qld__card__action">
-													<!-- Card Inner -->
-													<div class="qld__card__inner">
-														<!-- Card Content -->
-														<div class="qld__card__content">
-															<div class="qld__card__content-inner">
-																<!-- Card Ttile -->
-																<h3 class="qld__card__title">
-																	<a class="qld__card--clickable__link" href="javascript:void(0);">Multicultural Queensland Awards</a>
-																</h3>
-																<!-- Card Description -->
-																<p class="qld__card__description">
-																	The Multicultural Queensland Awards recognise individuals and organisations making an outstanding contribution to
-																	multiculturalism. Nominate today!
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-
-
-										</ul>
-									</div>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="qld__card-list__footer col-xs-12">
-									<a class="qld__card-list__all-link qld__cta-link qld__cta-link--view-all"
-										href="#">View all</a>
-								</div>
-							</div>
-
-						</div>
-
-					</section>
-
-
-					<!--GOVERNMENT-->
-					<section class="qld__body qld__body--full-width qld__body--dark-alt">
-
-						<div class="container-fluid">
-							<div class="row">
-								<div class="qld__card-intro col-xs-12">
-									<h2>Government</h2>
+									<h2>Featured</h2>
 								</div>
 							</div>
 
 							<div class="row">
 								<ul class="qld__card-list qld__card-list--matchheight">
 
-									<li class="col-xs-12 col-md-6">
-										<!-- QLD Single action -->
-										<div class="qld__card qld__card--light qld__card__action">
-											<!-- Card Inner -->
+
+									<li class="col-xs-12 col-md-6 col-lg-4">
+
+										<div class="qld__card qld__card__action   qld__card--image  ">
+
+											<div class="qld__responsive-media-img--bg"
+												style="background-image: url('img/rta.jpg');">
+											</div>
+
 											<div class="qld__card__inner">
-												<!-- Card Content -->
 												<div class="qld__card__content">
 													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
 														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">About the Queensland Government</a>
+															<a aria-label="We are Queensland Health" aria-describedby="card-1326124"
+																class="qld__card--clickable__link" href="#">Need rental assistance?</a>
 														</h3>
-														<!-- Card Description -->
-														<p class="qld__card__description">
-															How the government works and it's priorities, departments and budget.
+														<p id="card-1326124" class="qld__card__description">
+															The Residential Tenancies Authority provides a range of services for tenants, landlords, real estate agents and
+															providers of residential services.
 														</p>
 													</div>
 												</div>
@@ -1376,20 +911,25 @@
 										</div>
 									</li>
 
-									<li class="col-xs-12 col-md-6">
-										<!-- QLD Single action -->
-										<div class="qld__card qld__card--light qld__card__action">
-											<!-- Card Inner -->
+									<li class="col-xs-12 col-md-6 col-lg-4">
+
+										<div class="qld__card qld__card__action   qld__card--image  ">
+
+											<div class="qld__responsive-media-img--bg"
+												style="background-image: url('img/dv-connect.jpg');">
+											</div>
+
 											<div class="qld__card__inner">
-												<!-- Card Content -->
 												<div class="qld__card__content">
 													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
 														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Have your say</a>
+															<a aria-label="Make a healthy career move - international recruitment" aria-describedby="card-1422715"
+																class="qld__card--clickable__link"
+																href="https://www.careers.health.qld.gov.au/apply-for-a-job/international-healthcare-applicants">DVConnect</a>
 														</h3>
-														<!-- Card Description -->
-														<p class="qld__card__description">Help shape government decisions that affect you and your community.
+														<p id="card-1422715" class="qld__card__description">
+															DVConnect provides free help for women, men, children and pets affected by domestic and family violence across
+															Queensland.
 														</p>
 													</div>
 												</div>
@@ -1397,50 +937,30 @@
 										</div>
 									</li>
 
-									<li class="col-xs-12 col-md-6">
-										<!-- QLD Single action -->
-										<div class="qld__card qld__card--light qld__card__action">
-											<!-- Card Inner -->
+									<li class="col-xs-12 col-md-6 col-lg-4">
+
+										<div class="qld__card qld__card__action   qld__card--image  ">
+
+											<div class="qld__responsive-media-img--bg"
+												style="background-image: url('img/pool-safety.jpg');">
+											</div>
+
 											<div class="qld__card__inner">
-												<!-- Card Content -->
 												<div class="qld__card__content">
 													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
 														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Job openings</a>
+															<a aria-label="Don't be complacent" aria-describedby="card-1327348" class="qld__card--clickable__link"
+																href="https://www.vaccinate.initiatives.qld.gov.au/">Pool safety</a>
 														</h3>
-														<!-- Card Description -->
-														<p class="qld__card__description">
-															Search for a job in Queensland Government.
+														<p id="card-1327348" class="qld__card__description">
+														Drowning is one of the leading causes of death in Queensland for children under the age of five years old.
+														Effective pool fencing can save lives. Ensure your pool is safe and compliant.
 														</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</li>
-
-									<li class="col-xs-12 col-md-6">
-										<!-- QLD Single action -->
-										<div class="qld__card qld__card--light qld__card__action">
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<!-- Card Content -->
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">For government employees</a>
-														</h3>
-														<!-- Card Description -->
-														<p class="qld__card__description">
-															Advice, resources and services for Queensland Government employees.
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-
 								</ul>
 							</div>
 
@@ -1448,7 +968,8 @@
 
 						<!-- WIDGETS -->
 						<div class="qld__widgets" style="margin-top: 3rem; margin-bottom: 0;">
-							<a href="#" class="qld__btn qld__btn--floating qld__btn--back-to-top show" aria-label="Back to top">
+							<a href="#" class="qld__btn qld__btn--floating
+											qld__btn--back-to-top show" aria-label="Back to top">
 								<span>Back to top</span>
 							</a>
 						</div>
@@ -1456,6 +977,9 @@
 					</section>
 			</main>
 			<!-- END MAIN BODY -->
+
+
+
 
 			<!-- FOOTER-->
 			<!--
