@@ -29,6 +29,10 @@ div.qld__mega-nav_mobile-filler-120 {
 	padding-bottom: 0 !important;
 }
 
+.main-nav-infoservices {
+	margin-top: 0.5rem !important;
+}
+
 @media(min-width: 992px) {
 	.main-nav-individuals {
 		padding-bottom: 1px !important;
@@ -61,7 +65,7 @@ div.qld__mega-nav_mobile-filler-120 {
 		background-color: #FFF !important;
 	}
 
-	section.main-nav-audience .qld__main-nav__sub-head{
+	section.main-nav-audience .qld__main-nav__sub-head {
 		padding: 0.875rem 1.5rem 0.9375rem 0.75rem;
 		border-bottom: 1px solid #E8E8E8;
 		border-left: 4px solid white;
@@ -81,6 +85,10 @@ div.qld__mega-nav_mobile-filler-120 {
 
 		.mobile-hide {
 			display: none !important;
+		}
+
+		.qld__banner.qld__banner--has-hero .qld__banner__content {
+			padding-bottom: 2.5rem !important;
 		}
 
 }
@@ -114,6 +122,8 @@ a:hover.qld__tag,
 .qld__body .qld__accordion__title {
 	border-top: none !important;
 }
+
+
 
 
 /*   Block content banner style
