@@ -36,6 +36,18 @@ div.qld__mega-nav_mobile-filler-120 {
 
 .custom-class {margin-top: 4em;}
 
+/* Makes link list columns stack in columns */
+
+.qld__link-columns--3-col {
+	display: block!important;
+	column-count: 3 !important;
+	column-gap: 1rem!important;
+}
+
+.qld__body--dark-alt .qld__card.qld__card__action:focus-within {
+	outline: 3px solid var(--QLD-color-dark__focus) !important;
+}
+
 @media(min-width: 992px) {
 	.main-nav-individuals {
 		padding-bottom: 1px !important;
