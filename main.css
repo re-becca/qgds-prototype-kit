@@ -150,7 +150,7 @@ a.qld__tag,
 
 a:hover.qld__tag,
 .qld__tag.qld__tag--link:hover {
-	text-decoration-color: #121940 !important;
+	text-decoration-color: var(--QLD-color-dark__link--on-action) !important;
 	/* color: #FFF !important; */
 }
 
