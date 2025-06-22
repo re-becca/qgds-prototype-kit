@@ -133,9 +133,10 @@ div.qld__mega-nav_mobile-filler-120 {
 		padding-bottom: 2.5rem !important;
 	}
 
-.custom-class {
-	margin-top: 1.5em;
-}
+	.custom-class, .custom-class1 {
+		margin-top: 1.5em;
+	}
+
 }
 
 .qld__main-nav.qld__main-nav--mega .qld__main-nav__menu-sub .qld__link-columns li a:hover {
