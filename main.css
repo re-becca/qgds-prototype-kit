@@ -34,7 +34,14 @@ div.qld__mega-nav_mobile-filler-120 {
 	margin-top: 1rem !important;
 }
 
+.qld__grid,
+.qld__grid ::after {
+	text-wrap: pretty;
+}
+
 .custom-class {margin-top: 4em;}
+
+
 
 /* Makes link list columns stack in columns*/
 
@@ -171,6 +178,9 @@ a:hover.qld__tag,
 	.card-top-margin {
 		margin-top: 1.5rem;
 	}
+				.mt-mobile {
+					margin-top: 2.5em;
+				}
 }
 
 .qld__body .qld__accordion__body-wrapper {
@@ -179,6 +189,14 @@ a:hover.qld__tag,
 
 .qld__body .qld__accordion__title {
 	border-top: none !important;
+}
+
+button.qld__btn--icon-trail svg {
+	color: #008635 !important;
+}
+
+button:hover.qld__btn--icon-trail svg {
+	color: #005B23 !important;
 }
 
 /* ---------------------------------- */
@@ -326,9 +344,7 @@ Custom css for banner designs .
 }
 
 .row-reset-margins .qld__page-alerts {
-	max-width: 40rem;
-	margin-left: auto!important;
-	margin-right: auto !important;
+	max-width: 32rem;
 }
 
 @media (min-width: 992px) {
