@@ -34,10 +34,10 @@ div.qld__mega-nav_mobile-filler-120 {
 	margin-top: 1rem !important;
 }
 
-.qld__grid,
+/* .qld__grid,
 .qld__grid ::after {
 	text-wrap: pretty;
-}
+} */
 
 .custom-class {margin-top: 4em;}
 
@@ -320,6 +320,7 @@ Custom css for banner designs .
 	color: var(--QLD-color-light__link);
 	cursor: pointer;
 }
+
 
 .qld__banner.qld__banner--has-hero .qld__banner__content.banner-disasters a:hover {
 	text-decoration: underline;
