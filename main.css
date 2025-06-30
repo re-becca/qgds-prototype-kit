@@ -68,6 +68,35 @@ c	olor: #ffffff !important;
 	}
 }
 
+/* Cards without borders or padding or elevation */
+
+.nocards .qld__card {
+	border: none;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+.nocards .qld__card.qld__card--icon-left .qld__card__icon {
+	width: 3rem !important;
+	height: 3rem !important;
+}
+
+.nocards .qld__card.qld__card--icon .qld__card__icon {
+	background-color: transparent;
+}
+
+.qld__body .qld__card-list.nocards>li {
+	margin-top: 1rem !important;
+}
+
+.qld__body .qld__card-list.nocards .col-xs-12:nth-of-type(1) {
+	margin-top: 0rem !important;
+}
+
+.nocards .qld__card.qld__card--icon-left .qld__card__icon {
+ margin: 0 !important;
+}
+
 /* Makes link list columns stack in columns*/
 
 .qld__link-columns--3-col {
