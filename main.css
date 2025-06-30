@@ -44,7 +44,7 @@ div.qld__mega-nav_mobile-filler-120 {
 /* Global alert fixes */
 
 .qld__global-alert.qld__global-alert--critical a:visited {
-c	olor: #ffffff !important;
+ color: #ffffff !important;
 }
 
 .qld__global-alert--general a:visited:hover {
@@ -61,7 +61,7 @@ c	olor: #ffffff !important;
 	}
 }
 
-@media (max-width: 701px) {
+@media (max-width: 698px) {
 	.qld__global-alert .container-fluid {
 		padding-left: 1em !important;
 		padding-right: 1em !important;
@@ -87,6 +87,12 @@ c	olor: #ffffff !important;
 
 .qld__body .qld__card-list.nocards>li {
 	margin-top: 1rem !important;
+}
+
+@media (max-width: 698px) {
+	.qld__body .qld__card-list.nocards>li {
+		margin-top: 0.5rem !important;
+	}
 }
 
 .qld__body .qld__card-list.nocards .col-xs-12:nth-of-type(1) {
