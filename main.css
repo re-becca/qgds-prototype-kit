@@ -41,7 +41,32 @@ div.qld__mega-nav_mobile-filler-120 {
 
 .custom-class {margin-top: 4em;}
 
+/* Global alert fixes */
 
+.qld__global-alert.qld__global-alert--critical a:visited {
+c	olor: #ffffff !important;
+}
+
+.qld__global-alert--general a:visited:hover {
+	color: #222020 !important;
+}
+
+.qld__global-alert .container-fluid {
+	text-wrap: pretty;
+}
+
+@media (min-width: 400px) {
+	.qld__global-alert .qld__global-alert__main {
+		align-items: center;
+	}
+}
+
+@media (max-width: 701px) {
+	.qld__global-alert .container-fluid {
+		padding-left: 1em !important;
+		padding-right: 1em !important;
+	}
+}
 
 /* Makes link list columns stack in columns*/
 
