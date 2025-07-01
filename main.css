@@ -86,12 +86,15 @@ div.qld__mega-nav_mobile-filler-120 {
 } */
 
 .qld__body .qld__card-list.nocards>li {
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 }
 
 @media (max-width: 698px) {
 	.qld__body .qld__card-list.nocards>li {
-		margin-top: 0.75rem !important;
+		margin-top: 1rem !important;
+	}
+		.qld__body .qld__card-list.nocards>li:nth-of-type(-n + 1) {
+		margin-top: 0 !important;
 	}
 }
 
