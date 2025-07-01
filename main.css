@@ -99,6 +99,19 @@ div.qld__mega-nav_mobile-filler-120 {
  margin: 0 !important;
 }
 
+
+.newscards .row .col-md-6 {
+	margin-top: 2.5rem;
+}
+
+@media (min-width: 992px) {
+	.newscards .row .col-md-6:nth-of-type(-n + 1) {
+			margin-top: 0;
+	}
+}
+
+
+
 /* Custom link list columns with icons */
 
 .listcolicons svg {
