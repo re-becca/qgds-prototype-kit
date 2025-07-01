@@ -86,7 +86,7 @@ div.qld__mega-nav_mobile-filler-120 {
 }
 
 .qld__body .qld__card-list.nocards>li {
-	margin-top: 1rem !important;
+	margin-top: 1rem;
 }
 
 @media (max-width: 698px) {
@@ -95,12 +95,15 @@ div.qld__mega-nav_mobile-filler-120 {
 	}
 }
 
-.qld__body .qld__card-list.nocards .col-xs-12:nth-of-type(1) {
-	margin-top: 0rem !important;
-}
-
 .nocards .qld__card.qld__card--icon-left .qld__card__icon {
  margin: 0 !important;
+}
+
+/* Custom link list columns with icons */
+
+.listcolicons svg {
+	vertical-align: bottom;
+	margin-right: 0.5rem;
 }
 
 /* Makes link list columns stack in columns*/

@@ -115,10 +115,6 @@
 			opacity: 100% !important;
 		}
 
-		.infoservices svg {
-			color: #008733 !important;
-		}
-
 		/* This is meant to be the current Neutral Lightest in the color system (a grey), but have done this to override if for this component. Neutral Lightest is used else where, e.g. accordion border, so can't necessarily change it across the board. Would need further investigation.
 		.qld__card.qld__card--icon .qld__card__icon {
 			background-color: #f7e1f5;
@@ -129,40 +125,41 @@
 
 	<body class="qld__grid">
 
-					<section class="qld__body qld__global-alerts">
-						<div class="qld__global_alert_include">
-							<div role="region" aria-label="Alert" class="qld__global-alert qld__global-alert--general">
-								<div class="container-fluid">
-									<div class="qld__global-alert__main">
-										<div class="qld__global-alert__icon">
-											<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path fill-rule="evenodd" clip-rule="evenodd"
-													d="M16 20.5C15.6 20.5 15.3 20.6 15 20.9C14.7 21.2 14.6 21.5 14.6 21.9C14.6 22.3 14.7 22.6 15 22.9C15.3 23.2 15.6 23.3 16 23.3C16.4 23.3 16.7 23.2 17 22.9C17.3 22.6 17.4 22.3 17.4 21.9C17.4 21.5 17.3 21.2 17 20.9C16.7 20.6 16.4 20.5 16 20.5ZM16 18C16.3 18 16.5 17.9 16.7 17.7C16.9 17.5 17 17.3 17 17V9C17 8.7 16.9 8.5 16.7 8.3C16.5 8.1 16.3 8 16 8C15.7 8 15.5 8.1 15.3 8.3C15.1 8.5 15 8.7 15 9V17C15 17.3 15.1 17.5 15.3 17.7C15.5 17.9 15.7 18 16 18ZM28.9 10.5C28.2 8.8 27.2 7.3 25.9 6.1C24.6 4.8 23.2 3.8 21.5 3.1C19.8 2.4 17.9 2 16 2C14.1 2 12.2 2.4 10.5 3.1C8.8 3.8 7.3 4.8 6.1 6.1C4.8 7.4 3.8 8.8 3.1 10.5C2.4 12.2 2 14.1 2 16C2 17.9 2.4 19.8 3.1 21.5C3.8 23.2 4.8 24.7 6.1 25.9C7.4 27.2 8.9 28.2 10.5 28.9C12.2 29.6 14 30 16 30C17.9 30 19.7 29.6 21.5 28.9C23.2 28.2 24.7 27.2 25.9 25.9C27.2 24.6 28.2 23.2 28.9 21.5C29.6 19.8 30 18 30 16C30 14.1 29.6 12.2 28.9 10.5ZM24.6 24.6C22.2 27 19.4 28.1 16 28.1C12.6 28.1 9.7 26.9 7.4 24.6C5 22.2 3.9 19.4 3.9 16C3.9 12.6 5.1 9.7 7.4 7.4C9.7 5.1 12.6 3.9 16 3.9C19.4 3.9 22.3 5.1 24.6 7.4C27 9.8 28.1 12.6 28.1 16C28.1 19.4 27 22.2 24.6 24.6Z"
-													fill="#131212" />
-											</svg>
-										</div>
-										<div class="qld__global-alert__content">
-											<div class="qld__global-alert__message">
-												<a href="#"><strong>Ex-Tropical Cyclone Alfred and Western Queensland floods</strong>: Latest information and support</a>
-											</div>
-											<!-- <div class="qld__global-alert__action">
-															<a href="#">Learn more	</a>
-														</div> -->
-										</div>
-										<div class="qld__global-alert__close">
-											<button aria-label="Close alert">
-												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M10 11.4001L1.70169 19.6988C1.51094 19.8896 1.28009 19.9875 1.00914 19.9925C0.73819 19.9975 0.502196 19.8996 0.30116 19.6988C0.100387 19.4978 0 19.2643 0 18.9984C0 18.7327 0.100387 18.4993 0.30116 18.2983L8.59987 10L0.30116 1.70169C0.110412 1.51094 0.0125319 1.28009 0.00751919 1.00914C0.00250646 0.73819 0.100387 0.502196 0.30116 0.301159C0.502196 0.100386 0.735684 0 1.00162 0C1.2673 0 1.50065 0.100386 1.70169 0.301159L10 8.59987L18.2983 0.301159C18.4891 0.110411 18.7199 0.0125319 18.9909 0.00751919C19.2618 0.00250646 19.4978 0.100386 19.6988 0.301159C19.8996 0.502196 20 0.735684 20 1.00162C20 1.2673 19.8996 1.50065 19.6988 1.70169L11.4001 10L19.6988 18.2983C19.8896 18.4891 19.9875 18.7199 19.9925 18.9909C19.9975 19.2618 19.8996 19.4978 19.6988 19.6988C19.4978 19.8996 19.2643 20 18.9984 20C18.7327 20 18.4993 19.8996 18.2983 19.6988L10 11.4001Z"
-														fill="#222020" />
-												</svg>
-											</button>
-										</div>
+			<section class="qld__body qld__global-alerts">
+				<div class="qld__global_alert_include">
+					<div role="region" aria-label="Alert" class="qld__global-alert qld__global-alert--critical">
+						<div class="container-fluid">
+							<div class="qld__global-alert__main">
+								<div class="qld__global-alert__icon">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M29.8 10.2C29.7 9.9 29.5 9.6 29.2 9.4L22.6 2.8C22.4 2.6 22.1 2.4 21.8 2.2C21.5 2.1 21.1 2 20.8 2H11.3C11 2 10.6 2.1 10.3 2.2C9.9 2.3 9.6 2.5 9.4 2.8L2.8 9.4C2.6 9.6 2.4 9.9 2.2 10.2C2.1 10.5 2 10.9 2 11.2V20.7C2 21 2.1 21.4 2.2 21.7C2.3 22 2.5 22.3 2.8 22.5L9.4 29.1C9.6 29.3 9.9 29.5 10.2 29.7C10.5 29.8 10.9 29.9 11.2 29.9H20.7C21 29.9 21.4 29.8 21.7 29.7C22 29.6 22.3 29.4 22.5 29.1L29.1 22.5C29.3 22.3 29.5 22 29.7 21.7C29.8 21.4 29.9 21 29.9 20.7V11.2C30 10.9 29.9 10.6 29.8 10.2ZM27.9 21L20.9 28H11L4 21V11L11 4H21L28 11V21H27.9ZM15.3 17.7C15.1 17.5 15 17.3 15 17V9C15 8.7 15.1 8.5 15.3 8.3C15.5 8.1 15.7 8 16 8C16.3 8 16.5 8.1 16.7 8.3C16.9 8.5 17 8.7 17 9V17C17 17.3 16.9 17.5 16.7 17.7C16.5 17.9 16.3 18 16 18C15.7 18 15.5 17.9 15.3 17.7ZM17 20.9C17.3 21.2 17.4 21.5 17.4 21.9C17.4 22.3 17.3 22.6 17 22.9C16.7 23.2 16.4 23.3 16 23.3C15.6 23.3 15.3 23.2 15 22.9C14.7 22.6 14.6 22.3 14.6 21.9C14.6 21.5 14.7 21.2 15 20.9C15.3 20.6 15.6 20.5 16 20.5C16.4 20.5 16.7 20.6 17 20.9Z"
+											fill="#FFFFFF" />
+									</svg>
+
+								</div>
+								<div class="qld__global-alert__content">
+									<div class="qld__global-alert__message">
+										<a href="#"><strong>Tropical Cyclone Alfred</strong>: Latest updates</a>
 									</div>
+									<!-- <div class="qld__global-alert__action">
+										<a href="#">Learn more	</a>
+									</div> -->
+								</div>
+								<div class="qld__global-alert__close">
+									<button aria-label="Close alert">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M10 11.4001L1.70169 19.6988C1.51094 19.8896 1.28009 19.9875 1.00914 19.9925C0.73819 19.9975 0.502196 19.8996 0.30116 19.6988C0.100387 19.4978 0 19.2643 0 18.9984C0 18.7327 0.100387 18.4993 0.30116 18.2983L8.59987 10L0.30116 1.70169C0.110412 1.51094 0.0125319 1.28009 0.00751919 1.00914C0.00250646 0.73819 0.100387 0.502196 0.30116 0.301159C0.502196 0.100386 0.735684 0 1.00162 0C1.2673 0 1.50065 0.100386 1.70169 0.301159L10 8.59987L18.2983 0.301159C18.4891 0.110411 18.7199 0.0125319 18.9909 0.00751919C19.2618 0.00250646 19.4978 0.100386 19.6988 0.301159C19.8996 0.502196 20 0.735684 20 1.00162C20 1.2673 19.8996 1.50065 19.6988 1.70169L11.4001 10L19.6988 18.2983C19.8896 18.4891 19.9875 18.7199 19.9925 18.9909C19.9975 19.2618 19.8996 19.4978 19.6988 19.6988C19.4978 19.8996 19.2643 20 18.9984 20C18.7327 20 18.4993 19.8996 18.2983 19.6988L10 11.4001Z"
+												fill="#FFFFFF" />
+										</svg>
+									</button>
 								</div>
 							</div>
 						</div>
-					</section>
+					</div>
+				</div>
+			</section>
 
 			<!-- Main header container with banner role -->
 			<header class="qld__header horizontal-example" role="banner">
@@ -259,7 +256,7 @@
 						<!-- Header brand section -->
 						<div class="qld__header__brand">
 
-							<a href="homepage-two.html">
+							<a href="homepage-one.html">
 								<!-- QLD Government logo -->
 								<div class="qld__header__brand-image" style="border-right: none;">
 									<svg width="330" height="55" viewBox="0 0 330 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -484,7 +481,7 @@
 								<ul class="qld__link-list qld__link-list--flex">
 									<li class=" qld__main-nav__item">
 										<div class="qld__main-nav__item-title">
-											<a class="qld__main-nav__item-link" href="homepage-three.html">
+											<a class="qld__main-nav__item-link" href="homepage-one.html">
 												<svg viewBox="0 0 576 512" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
 													class="qld__icon qld__icon--sm">
 													<title>Home icon</title>
@@ -498,16 +495,22 @@
 									</li>
 									<li class="qld__main-nav__item">
 										<div class="qld__main-nav__item-title">
-											<a class="qld__main-nav__item-link qld__main-nav__item-link--desktop-hide" href="#">Information and services</a>
-											<button class="qld__main-nav__item-toggle qld__accordion--closed" aria-controls="mega-nav-/individuals.html" aria-expanded="false" aria-selected="false" aria-label="Toggle navigation, Components"><span class="qld__main-nav__item-toggle-text" data-name="=Menu"  style="width: 60px;">Menu</span>
-												<svg class="qld__icon qld__icon--xs" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<a class="qld__main-nav__item-link qld__main-nav__item-link--desktop-hide" href="#">Information and
+												services</a>
+											<button class="qld__main-nav__item-toggle qld__accordion--closed"
+												aria-controls="mega-nav-/individuals.html" aria-expanded="false" aria-selected="false"
+												aria-label="Toggle navigation, Components"><span class="qld__main-nav__item-toggle-text"
+													data-name="=Menu" style="width: 60px;">Menu</span>
+												<svg class="qld__icon qld__icon--xs" viewBox="0 0 26 14" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
 													<path fill="currentColor"
 														d="M13.0021 2.17061L1.85569 13.6745C1.64284 13.8944 1.38689 14.0029 1.08785 13.9999C0.788555 13.9972 0.532485 13.8859 0.319635 13.6659C0.106544 13.4463 1.30824e-08 13.182 0 12.8731C-1.30719e-08 12.5644 0.106544 12.3001 0.319635 12.0802L11.3603 0.693715C11.5936 0.452909 11.8537 0.27709 12.1407 0.166254C12.428 0.0554185 12.7151 1.29484e-08 13.0021 0C13.2891 -1.29484e-08 13.5763 0.0554184 13.8635 0.166254C14.1505 0.27709 14.4107 0.452909 14.644 0.693715L25.6846 12.0891C25.8977 12.3088 26.0028 12.5716 25.9999 12.8775C25.9973 13.1835 25.8894 13.4463 25.6763 13.6659C25.4635 13.8859 25.2074 13.9958 24.9081 13.9958C24.6091 13.9958 24.353 13.8859 24.1399 13.6659L13.0021 2.17061Z" />
 												</svg>
 											</button>
 										</div>
 
-										<div class="qld__main-nav__menu-sub qld__accordion__body qld__accordion--closed" id="mega-nav-/individuals.html">
+										<div class="qld__main-nav__menu-sub qld__accordion__body qld__accordion--closed"
+											id="mega-nav-/individuals.html">
 											<div class="qld__main-nav__menu-sub-inner">
 
 
@@ -516,14 +519,16 @@
 
 														<div class="qld__main-nav__sub-head">
 															<a class="qld__main-nav__sub-heading " href="https://www.qld.gov.au/queenslanders">
-																<span class="qld__main-nav__sub-item-text qld__display-lg qld__cta-link">Information and services</span>
+																<span class="qld__main-nav__sub-item-text qld__display-lg qld__cta-link">Information and
+																	services</span>
 																<!-- <p class="qld__main-nav__item-desc">This is level one short description</p> -->
 															</a>
 														</div>
 
 														<hr class="qld__horizontal-rule qld__horizontal-rule--lg">
 
-														<ul class="qld__link-columns qld__link-columns--3-col qld__link-list main-nav-infoservices tablet">
+														<ul
+															class="qld__link-columns qld__link-columns--3-col qld__link-list main-nav-infoservices tablet">
 															<li class="">
 																<a href="#">
 																	<span class="qld__main-nav__sub-item-text">Transport and motoring</span>
@@ -534,21 +539,21 @@
 																	<span class="qld__main-nav__sub-item-text">Employment and jobs</span>
 																</a>
 															</li>
-															<li class="">
+															<!-- <li class="">
 																<a href="#">
 																	<span class="qld__main-nav__sub-item-text">Business Queensland</span>
 																</a>
-															</li>
+															</li> -->
 															<li class="">
 																<a href="#">
 																	<span class="qld__main-nav__sub-item-text">Education and training</span>
 																</a>
 															</li>
 															<!-- <li class="">
-																<a href="#">
-																	<span class="qld__main-nav__sub-item-text">Queensland and its government</span>
-																</a>
-															</li> -->
+																			<a href="#">
+																				<span class="qld__main-nav__sub-item-text">Queensland and its government</span>
+																			</a>
+																		</li> -->
 															<li class="">
 																<a href="#">
 																	<span class="qld__main-nav__sub-item-text">Health and wellbeing</span>
@@ -591,12 +596,18 @@
 															</li>
 															<li class="">
 																<a href="#">
+																	<span class="qld__main-nav__sub-item-text">People with disability</span>
+																</a>
+															</li>
+															<li class="">
+																<a href="#">
 																	<span class="qld__main-nav__sub-item-text">Youth</span>
 																</a>
 															</li>
 															<li class="">
 																<a href="#">
-																	<span class="qld__main-nav__sub-item-text">Aboriginal and Torres Strait Islander peoples</span>
+																	<span class="qld__main-nav__sub-item-text">Aboriginal and Torres Strait Islander
+																		peoples</span>
 																</a>
 															</li>
 															<li class="">
@@ -606,44 +617,44 @@
 															</li>
 														</ul>
 														<!-- <section class="qld__body mobile-hide" style="padding-top: 2em;">
-															<h4 style="padding-bottom:1em;">Business information and services</h4>
-															<button type="button" class="qld__btn qld__btn--icon-trail">Go to <strong>Business Queensland</strong></button>
-														</section> -->
+																		<h4 style="padding-bottom:1em;">Business information and services</h4>
+																		<button type="button" class="qld__btn qld__btn--icon-trail">Go to <strong>Business Queensland</strong></button>
+																	</section> -->
 													</div>
 													<!-- <div class="col-xs-12 col-lg-4 mobile-hide">
-														<section class="qld__body qld__body--light main-nav-qg">
-															<div class="qld__main-nav__sub-head">
-																<span class="qld__main-nav__sub-item-text qld__display-lg">Queensland Government</span>
-															</div>
-															<ul class="qld__link-columns qld__link-columns--1-col qld__link-list main-nav-qg main-nav-qg-ul">
-																<li class="">
-																	<a href="#">
-																		<span class="qld__main-nav__sub-item-text">About Queensland Government</span>
-																	</a>
-																</li>
-																<li class="">
-																	<a href="#">
-																		<span class="qld__main-nav__sub-item-text">Have your say</span>
-																	</a>
-																</li>
-																<li class="">
-																	<a href="#">
-																		<span class="qld__main-nav__sub-item-text">News</span>
-																	</a>
-																</li>
-																<li class="">
-																	<a href="#">
-																		<span class="qld__main-nav__sub-item-text">Jobs in Government</span>
-																	</a>
-																</li>
-																<li class="">
-																	<a href="#">
-																		<span class="qld__main-nav__sub-item-text">For government employees</span>
-																	</a>
-																</li>
-															</ul>
-														</section>
-													</div> -->
+																	<section class="qld__body qld__body--light main-nav-qg">
+																		<div class="qld__main-nav__sub-head">
+																			<span class="qld__main-nav__sub-item-text qld__display-lg">Queensland Government</span>
+																		</div>
+																		<ul class="qld__link-columns qld__link-columns--1-col qld__link-list main-nav-qg main-nav-qg-ul">
+																			<li class="">
+																				<a href="#">
+																					<span class="qld__main-nav__sub-item-text">About Queensland Government</span>
+																				</a>
+																			</li>
+																			<li class="">
+																				<a href="#">
+																					<span class="qld__main-nav__sub-item-text">Have your say</span>
+																				</a>
+																			</li>
+																			<li class="">
+																				<a href="#">
+																					<span class="qld__main-nav__sub-item-text">News</span>
+																				</a>
+																			</li>
+																			<li class="">
+																				<a href="#">
+																					<span class="qld__main-nav__sub-item-text">Jobs in Government</span>
+																				</a>
+																			</li>
+																			<li class="">
+																				<a href="#">
+																					<span class="qld__main-nav__sub-item-text">For government employees</span>
+																				</a>
+																			</li>
+																		</ul>
+																	</section>
+																</div> -->
 												</div>
 											</div>
 										</div>
@@ -679,9 +690,9 @@
 											<div class="qld__main-nav__item-title">
 												<a class="qld__main-nav__item-link" href="#">
 													<!-- <svg class="qld__icon qld__icon--xs" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill="currentColor"
-															d="M22.4516 24C19.8959 24 17.2842 23.3727 14.6167 22.1181C11.9492 20.8635 9.47353 19.092 7.18976 16.8035C4.90577 14.5153 3.13647 12.0396 1.88188 9.37659C0.627294 6.71353 0 4.10412 0 1.54835C0 1.106 0.146235 0.737411 0.438706 0.442587C0.730941 0.147529 1.09635 0 1.53494 0H5.75506C6.11929 0 6.43129 0.118707 6.69106 0.356119C6.95059 0.59353 7.12718 0.896 7.22082 1.26353L8.05165 5.16988C8.10294 5.53576 8.09118 5.85953 8.01635 6.14118C7.94153 6.42282 7.80212 6.65965 7.59812 6.85165L4.29035 10.0722C4.88541 11.1132 5.52871 12.0835 6.22024 12.9833C6.912 13.8831 7.66035 14.7327 8.46529 15.5322C9.30976 16.3925 10.2081 17.1819 11.1604 17.9005C12.1124 18.6191 13.134 19.2769 14.2253 19.8741L17.4173 16.6119C17.6476 16.3627 17.9124 16.1928 18.2114 16.1022C18.5105 16.0119 18.8219 15.9902 19.1456 16.0373L22.7365 16.8064C23.1087 16.8944 23.4124 17.0826 23.6474 17.3711C23.8825 17.6593 24 17.986 24 18.3512V22.4651C24 22.9036 23.8525 23.2691 23.5574 23.5613C23.2626 23.8538 22.894 24 22.4516 24ZM3.42247 8.43635L6.20471 5.74835C6.24376 5.71212 6.27012 5.66235 6.28377 5.59906C6.29741 5.53577 6.29812 5.47694 6.28588 5.42259L5.56729 1.99094C5.55529 1.91847 5.52518 1.86412 5.47694 1.82788C5.42871 1.79188 5.36835 1.77388 5.29588 1.77388H1.97118C1.91682 1.77388 1.87153 1.79188 1.83529 1.82788C1.79906 1.86412 1.78094 1.90941 1.78094 1.96377C1.81835 2.93812 1.97235 3.96047 2.24294 5.03082C2.51353 6.10118 2.90671 7.23635 3.42247 8.43635ZM15.9004 20.7187C16.8554 21.1801 17.8848 21.5374 18.9886 21.7906C20.0924 22.0435 21.1082 22.1869 22.0362 22.2208C22.0906 22.2208 22.1359 22.2027 22.1721 22.1665C22.2081 22.1302 22.2261 22.0849 22.2261 22.0306V18.7313C22.2261 18.6588 22.2081 18.5985 22.1721 18.5502C22.1359 18.502 22.0815 18.4719 22.0091 18.4599L18.8869 17.8189C18.8326 17.8069 18.7851 17.8078 18.7444 17.8214C18.7036 17.8348 18.6607 17.8612 18.6155 17.9005L15.9004 20.7187Z" />
-													</svg> -->
+																	<path fill="currentColor"
+																		d="M22.4516 24C19.8959 24 17.2842 23.3727 14.6167 22.1181C11.9492 20.8635 9.47353 19.092 7.18976 16.8035C4.90577 14.5153 3.13647 12.0396 1.88188 9.37659C0.627294 6.71353 0 4.10412 0 1.54835C0 1.106 0.146235 0.737411 0.438706 0.442587C0.730941 0.147529 1.09635 0 1.53494 0H5.75506C6.11929 0 6.43129 0.118707 6.69106 0.356119C6.95059 0.59353 7.12718 0.896 7.22082 1.26353L8.05165 5.16988C8.10294 5.53576 8.09118 5.85953 8.01635 6.14118C7.94153 6.42282 7.80212 6.65965 7.59812 6.85165L4.29035 10.0722C4.88541 11.1132 5.52871 12.0835 6.22024 12.9833C6.912 13.8831 7.66035 14.7327 8.46529 15.5322C9.30976 16.3925 10.2081 17.1819 11.1604 17.9005C12.1124 18.6191 13.134 19.2769 14.2253 19.8741L17.4173 16.6119C17.6476 16.3627 17.9124 16.1928 18.2114 16.1022C18.5105 16.0119 18.8219 15.9902 19.1456 16.0373L22.7365 16.8064C23.1087 16.8944 23.4124 17.0826 23.6474 17.3711C23.8825 17.6593 24 17.986 24 18.3512V22.4651C24 22.9036 23.8525 23.2691 23.5574 23.5613C23.2626 23.8538 22.894 24 22.4516 24ZM3.42247 8.43635L6.20471 5.74835C6.24376 5.71212 6.27012 5.66235 6.28377 5.59906C6.29741 5.53577 6.29812 5.47694 6.28588 5.42259L5.56729 1.99094C5.55529 1.91847 5.52518 1.86412 5.47694 1.82788C5.42871 1.79188 5.36835 1.77388 5.29588 1.77388H1.97118C1.91682 1.77388 1.87153 1.79188 1.83529 1.82788C1.79906 1.86412 1.78094 1.90941 1.78094 1.96377C1.81835 2.93812 1.97235 3.96047 2.24294 5.03082C2.51353 6.10118 2.90671 7.23635 3.42247 8.43635ZM15.9004 20.7187C16.8554 21.1801 17.8848 21.5374 18.9886 21.7906C20.0924 22.0435 21.1082 22.1869 22.0362 22.2208C22.0906 22.2208 22.1359 22.2027 22.1721 22.1665C22.2081 22.1302 22.2261 22.0849 22.2261 22.0306V18.7313C22.2261 18.6588 22.2081 18.5985 22.1721 18.5502C22.1359 18.502 22.0815 18.4719 22.0091 18.4599L18.8869 17.8189C18.8326 17.8069 18.7851 17.8078 18.7444 17.8214C18.7036 17.8348 18.6607 17.8612 18.6155 17.9005L15.9004 20.7187Z" />
+																</svg> -->
 													<span class="qld__main-nav__item-text" data-name="Contact us">Contact us</span>
 												</a>
 											</div>
@@ -703,7 +714,8 @@
 			<main class="main" role="main">
 
 					<!--@@ Banner @@-->
-					<section id="banner-advanced-230387" class=" qld__banner qld__banner__advanced qld__banner--dark qld__banner--has-hero qld__banner--hero-right ">
+					<section id="banner-advanced-230387"
+						class=" qld__banner qld__banner__advanced qld__banner--dark qld__banner--has-hero qld__banner--hero-right ">
 
 						<div class="container-fluid">
 							<div class="qld__banner__wrapper">
@@ -711,10 +723,13 @@
 								<div class="qld__banner__main row">
 									<div class="qld__banner__hero col-xs-12">
 
-									<div class="qld__banner__image qld__banner__image--mobile-hide" style="background-image: url('./?a=');" role="img" aria-label="">
-									</div>
-											<div class="qld__banner__image qld__banner__image--background qld__banner__image--desktop-hide" style="background-image: url('img/homepage-banner/caleb-gYUK48mFopg-unsplash.jpg');" role="img" aria-label="">
-											</div>
+										<div class="qld__banner__image qld__banner__image--mobile-hide" style="background-image: url('./?a=');"
+											role="img" aria-label="">
+										</div>
+										<div class="qld__banner__image qld__banner__image--background qld__banner__image--desktop-hide"
+											style="background-image: url('img/homepage-banner/caleb-gYUK48mFopg-unsplash.jpg');" role="img"
+											aria-label="">
+										</div>
 									</div>
 
 									<div class="col-xs-12 col-lg-7 col-xl-8">
@@ -727,14 +742,16 @@
 												<div class="qld__main-nav__focus-trap-top"></div>
 
 												<div class="qld__search-form--wrapper">
-													<form role="search" aria-label="sitewide" class="qld__search-form" id="search-input-global-header" action="#">
-														<label for="search-input-global-header-query" class="qld__label qld__display-lg qld__search-form__label">Search
+													<form role="search" aria-label="sitewide" class="qld__search-form" id="search-input-global-header"
+														action="#">
+														<label for="search-input-global-header-query"
+															class="qld__label qld__display-lg qld__search-form__label">Search
 															this website</label>
 														<div class="qld__search-form__inner" style="margin-top: 1.5rem;">
-															<input type="search" id="search-input-global-header-query" placeholder="Search qld.gov.au" name="query"
-																class="qld__text-input data-hj-allow" autocomplete="off">
-															<input type="text" placeholder="Search qld.gov.au" id="search" name="search" autocomplete="off" tabindex="-1"
-																class="qld__text-input--validation">
+															<input type="search" id="search-input-global-header-query" placeholder="Search qld.gov.au"
+																name="query" class="qld__text-input data-hj-allow" autocomplete="off">
+															<input type="text" placeholder="Search qld.gov.au" id="search" name="search" autocomplete="off"
+																tabindex="-1" class="qld__text-input--validation">
 															<div class="qld__search-form__btn">
 																<button class="qld__btn qld__btn--search" type="submit" aria-label="Search">
 																	<span class="qld__btn__icon"></span>
@@ -751,47 +768,57 @@
 												<li><a class="qld__tag qld__tag--link" role="link" href="javascript:void(0)">Public holidays</a></li>
 												<li><a class="qld__tag qld__tag--link" role="link" href="javascript:void(0)">Driver licence</a></li>
 												<li><a class="qld__tag qld__tag--link" role="link" href="javascript:void(0)">Car rego</a></li>
-												<li><a class="qld__tag qld__tag--link" role="link" href="javascript:void(0)">Apply for a Blue Card</a></li>
+												<li><a class="qld__tag qld__tag--link" role="link" href="javascript:void(0)">Apply for a Blue Card</a>
+												</li>
 												<li><a class="qld__tag qld__tag--link" role="link" href="javascript:void(0)">Find a JP</a></li>
 											</ul>
 										</div>
 									</div>
 
 									<div class="col-xs-12 col-lg-5 col-xl-4">
-											<div class="qld__banner__content banner-disasters" >
+										<div class="qld__banner__content banner-disasters">
 
-												<div class="row row-reset-margins">
-													<div class="col-xs-12 col">
+											<div class="row row-reset-margins">
 
-														<!-- Main container for the warning alert with role 'region' and an accessible label 'Warning' -->
-														<div role="region" aria-label="Warning" class="qld__page-alerts qld__page-alerts--svg qld__page-alerts--info">
+												<div class="col-xs-12 col">
 
-															<!-- Container for the warning alert icon -->
-															<div class="qld__page-alerts__icon">
-																<!-- SVG icon representing the info state, labeled as 'Info' for accessibility -->
-																<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path fill-rule="evenodd" clip-rule="evenodd"
-																		d="M16 20.5C15.6 20.5 15.3 20.6 15 20.9C14.7 21.2 14.6 21.5 14.6 21.9C14.6 22.3 14.7 22.6 15 22.9C15.3 23.2 15.6 23.3 16 23.3C16.4 23.3 16.7 23.2 17 22.9C17.3 22.6 17.4 22.3 17.4 21.9C17.4 21.5 17.3 21.2 17 20.9C16.7 20.6 16.4 20.5 16 20.5ZM16 18C16.3 18 16.5 17.9 16.7 17.7C16.9 17.5 17 17.3 17 17V9C17 8.7 16.9 8.5 16.7 8.3C16.5 8.1 16.3 8 16 8C15.7 8 15.5 8.1 15.3 8.3C15.1 8.5 15 8.7 15 9V17C15 17.3 15.1 17.5 15.3 17.7C15.5 17.9 15.7 18 16 18ZM28.9 10.5C28.2 8.8 27.2 7.3 25.9 6.1C24.6 4.8 23.2 3.8 21.5 3.1C19.8 2.4 17.9 2 16 2C14.1 2 12.2 2.4 10.5 3.1C8.8 3.8 7.3 4.8 6.1 6.1C4.8 7.4 3.8 8.8 3.1 10.5C2.4 12.2 2 14.1 2 16C2 17.9 2.4 19.8 3.1 21.5C3.8 23.2 4.8 24.7 6.1 25.9C7.4 27.2 8.9 28.2 10.5 28.9C12.2 29.6 14 30 16 30C17.9 30 19.7 29.6 21.5 28.9C23.2 28.2 24.7 27.2 25.9 25.9C27.2 24.6 28.2 23.2 28.9 21.5C29.6 19.8 30 18 30 16C30 14.1 29.6 12.2 28.9 10.5ZM24.6 24.6C22.2 27 19.4 28.1 16 28.1C12.6 28.1 9.7 26.9 7.4 24.6C5 22.2 3.9 19.4 3.9 16C3.9 12.6 5.1 9.7 7.4 7.4C9.7 5.1 12.6 3.9 16 3.9C19.4 3.9 22.3 5.1 24.6 7.4C27 9.8 28.1 12.6 28.1 16C28.1 19.4 27 22.2 24.6 24.6Z"
-																		fill="#FFFFFF" />
-																</svg>
-															</div>
+													<!-- Main container for the warning alert with role 'region' and an accessible label 'Warning' -->
+													<div role="region" aria-label="Warning" class="qld__page-alerts qld__page-alerts--svg qld__page-alerts--error">
 
-															<!-- Heading for the warning message -->
-															<h2 class="qld__page-alerts--heading qld__display-lg" style="margin-bottom: 0 !important;">Disaster information</h2>
-
-															<ul class="qld__link-list qld__margin-t-li--lg" style="padding-top:0;">
-																<li><a href="javascript:void(0);" class="qld__cta-link">Ex-Tropical Cyclone Alfred</a>
-																	<p style="margin-top: 0 !important;">Last update 9:15 am 23 June</p>
-																</li>
-																<li><a href="javascript:void(0);" class="qld__cta-link">Western Queensland floods</a>
-																	<p style="margin-top: 0 !important;">Recovery information and support</p>
-																</li>
-															</ul>
-
+														<!-- Container for the warning alert icon -->
+														<div class="qld__page-alerts__icon">
+															<!-- SVG icon representing the info state, labeled as 'Info' for accessibility -->
+															<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M29.8 10.2C29.7 9.9 29.5 9.6 29.2 9.4L22.6 2.8C22.4 2.6 22.1 2.4 21.8 2.2C21.5 2.1 21.1 2 20.8 2H11.3C11 2 10.6 2.1 10.3 2.2C9.9 2.3 9.6 2.5 9.4 2.8L2.8 9.4C2.6 9.6 2.4 9.9 2.2 10.2C2.1 10.5 2 10.9 2 11.2V20.7C2 21 2.1 21.4 2.2 21.7C2.3 22 2.5 22.3 2.8 22.5L9.4 29.1C9.6 29.3 9.9 29.5 10.2 29.7C10.5 29.8 10.9 29.9 11.2 29.9H20.7C21 29.9 21.4 29.8 21.7 29.7C22 29.6 22.3 29.4 22.5 29.1L29.1 22.5C29.3 22.3 29.5 22 29.7 21.7C29.8 21.4 29.9 21 29.9 20.7V11.2C30 10.9 29.9 10.6 29.8 10.2ZM27.9 21L20.9 28H11L4 21V11L11 4H21L28 11V21H27.9ZM15.3 17.7C15.1 17.5 15 17.3 15 17V9C15 8.7 15.1 8.5 15.3 8.3C15.5 8.1 15.7 8 16 8C16.3 8 16.5 8.1 16.7 8.3C16.9 8.5 17 8.7 17 9V17C17 17.3 16.9 17.5 16.7 17.7C16.5 17.9 16.3 18 16 18C15.7 18 15.5 17.9 15.3 17.7ZM17 20.9C17.3 21.2 17.4 21.5 17.4 21.9C17.4 22.3 17.3 22.6 17 22.9C16.7 23.2 16.4 23.3 16 23.3C15.6 23.3 15.3 23.2 15 22.9C14.7 22.6 14.6 22.3 14.6 21.9C14.6 21.5 14.7 21.2 15 20.9C15.3 20.6 15.6 20.5 16 20.5C16.4 20.5 16.7 20.6 17 20.9Z"
+																	fill="#FFFFFF" />
+															</svg>
 														</div>
 
+														<!-- Heading for the warning message -->
+														<h2 class="qld__page-alerts--heading qld__display-lg" style="margin-bottom: 0 !important;"><a
+																href="#aidhfga">Tropical Cyclone Alfred</a></h2>
+
+														<div>
+															<p style="margin-top: 1rem !important;"><strong>Latest updates</strong></p>
+															<p class=" qld__caption">9:16 am 27 June</p>
+															<p style="margin-top: 0 !important;"><a href="#sdhefh">Public transport services suspended</a></p>
+														</div>
+
+														<div style="margin-top: 1rem;">
+															<p class=" qld__caption">8:46 am 27 June</p>
+															<p style="margin-top: 0 !important;"><a href="#sdhaeh">Update from Queensland Premier David Crisafulli</a></p>
+														</div>
+
+														<p style="margin-top: 1rem !important;"><a class="qld__cta-link qld__cta-link--view-all" style="font-size: 1rem;"
+																href="llsodfj">View all updates</a></p>
+
 													</div>
+
+
 												</div>
+
+											</div>
 
 										</div>
 									</div>
@@ -803,444 +830,217 @@
 					</section>
 
 					<!--CATEGORIES-->
-					<section class="qld__body qld__body--full-width">
+					<section class="qld__body qld__body--full-width qld__body">
 
 						<div class="container-fluid">
-							<div class="row">
-								<div class="qld__card-intro col-xs-12">
-									<h2>Information and services</h2>
-								</div>
-							</div>
+							<h2>Information and services</h2>
 
-							<div class="row">
-								<ul class="qld__card-list qld__card-list--matchheight infoservices nocards">
+							<ul aria-label="Related links" class="qld__link-columns qld__link-columns--3-col listcolicons">
+								<li class="external"><a href="#kpqon">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M13.235 17.85C13.235 17.42 13.235 17.21 13.285 17.03C13.415 16.55 13.785 16.18 14.265 16.05C14.445 16 14.655 16 15.085 16H16.925C17.355 16 17.565 16 17.745 16.05C18.225 16.18 18.595 16.55 18.725 17.03C18.775 17.21 18.775 17.42 18.775 17.85V18.77C18.775 20.3 17.535 21.53 16.015 21.53C14.495 21.53 13.255 20.29 13.255 18.77V17.85H13.235Z"
+										stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path
+										d="M18.625 18.0797H20.255C22.025 18.0797 22.915 18.0797 23.675 17.9197C25.865 17.4597 27.645 16.0397 28.425 14.1397C28.695 13.4797 28.805 12.6897 29.025 11.0997C29.105 10.4997 29.145 10.2097 29.105 9.95967C28.985 9.24967 28.425 8.66967 27.655 8.47967C27.395 8.40967 27.055 8.40967 26.395 8.40967H5.60496C4.93496 8.40967 4.60496 8.40967 4.34496 8.47967C3.57496 8.66967 3.00496 9.24967 2.89496 9.95967C2.85496 10.1997 2.89496 10.4997 2.97496 11.0997C3.19496 12.6897 3.30496 13.4797 3.57496 14.1397C4.35496 16.0397 6.13496 17.4597 8.32496 17.9197C9.08496 18.0797 9.96496 18.0797 11.745 18.0797H13.375"
+										stroke="#008733" stroke-width="2" />
+									<path
+										d="M4.255 15.3101V18.0701C4.255 23.2801 4.255 24.8901 5.785 26.5001C7.315 28.1201 9.775 28.1201 14.695 28.1201H17.305C22.225 28.1201 24.685 28.1201 26.215 26.5001C27.745 24.8801 27.745 23.2801 27.745 18.0701V15.3101"
+										stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path
+										d="M20.8349 8.40988L20.7249 7.91988C20.1949 5.48988 19.9249 5.26988 19.2949 4.57988C18.6649 3.87988 17.8249 3.87988 16.1349 3.87988H15.8549C14.1749 3.87988 13.3349 3.87988 12.6949 4.57988C12.0649 5.27988 11.7949 5.48988 11.2649 7.91988L11.1549 8.40988"
+										stroke="#008733" stroke-width="2" />
+								</svg>Business Queensland</a></li>
 
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M13.235 17.85C13.235 17.42 13.235 17.21 13.285 17.03C13.415 16.55 13.785 16.18 14.265 16.05C14.445 16 14.655 16 15.085 16H16.925C17.355 16 17.565 16 17.745 16.05C18.225 16.18 18.595 16.55 18.725 17.03C18.775 17.21 18.775 17.42 18.775 17.85V18.77C18.775 20.3 17.535 21.53 16.015 21.53C14.495 21.53 13.255 20.29 13.255 18.77V17.85H13.235Z"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-													<path
-														d="M18.625 18.0797H20.255C22.025 18.0797 22.915 18.0797 23.675 17.9197C25.865 17.4597 27.645 16.0397 28.425 14.1397C28.695 13.4797 28.805 12.6897 29.025 11.0997C29.105 10.4997 29.145 10.2097 29.105 9.95967C28.985 9.24967 28.425 8.66967 27.655 8.47967C27.395 8.40967 27.055 8.40967 26.395 8.40967H5.60496C4.93496 8.40967 4.60496 8.40967 4.34496 8.47967C3.57496 8.66967 3.00496 9.24967 2.89496 9.95967C2.85496 10.1997 2.89496 10.4997 2.97496 11.0997C3.19496 12.6897 3.30496 13.4797 3.57496 14.1397C4.35496 16.0397 6.13496 17.4597 8.32496 17.9197C9.08496 18.0797 9.96496 18.0797 11.745 18.0797H13.375"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M4.255 15.3101V18.0701C4.255 23.2801 4.255 24.8901 5.785 26.5001C7.315 28.1201 9.775 28.1201 14.695 28.1201H17.305C22.225 28.1201 24.685 28.1201 26.215 26.5001C27.745 24.8801 27.745 23.2801 27.745 18.0701V15.3101"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-													<path
-														d="M20.8349 8.40988L20.7249 7.91988C20.1949 5.48988 19.9249 5.26988 19.2949 4.57988C18.6649 3.87988 17.8249 3.87988 16.1349 3.87988H15.8549C14.1749 3.87988 13.3349 3.87988 12.6949 4.57988C12.0649 5.27988 11.7949 5.48988 11.2649 7.91988L11.1549 8.40988"
-														stroke="#008733" stroke-width="2" />
-												</svg>
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Business Queensland <svg style="vertical-align:baseline;" width="16" height="16" viewBox="0 0 16 16" fill="none"
-																xmlns="http://www.w3.org/2000/svg">
-																<path
-																	d="M4.09507 17.5C3.64934 17.5 3.27206 17.3456 2.96324 17.0368C2.65441 16.7279 2.5 16.3507 2.5 15.9049V4.09507C2.5 3.64934 2.65441 3.27206 2.96324 2.96324C3.27206 2.65441 3.64934 2.5 4.09507 2.5H8.99875C9.18654 2.5 9.34382 2.56338 9.47059 2.69015C9.59721 2.81676 9.66051 2.97397 9.66051 3.16176C9.66051 3.34956 9.59721 3.50676 9.47059 3.63338C9.34382 3.76015 9.18654 3.82353 8.99875 3.82353H4.09507C4.02713 3.82353 3.96493 3.85184 3.90846 3.90846C3.85184 3.96493 3.82353 4.02713 3.82353 4.09507V15.9049C3.82353 15.9729 3.85184 16.0351 3.90846 16.0915C3.96493 16.1482 4.02713 16.1765 4.09507 16.1765H15.9049C15.9729 16.1765 16.0351 16.1482 16.0915 16.0915C16.1482 16.0351 16.1765 15.9729 16.1765 15.9049V11.0013C16.1765 10.8135 16.2399 10.6562 16.3666 10.5294C16.4932 10.4028 16.6504 10.3395 16.8382 10.3395C17.026 10.3395 17.1832 10.4028 17.3099 10.5294C17.4366 10.6562 17.5 10.8135 17.5 11.0013V15.9049C17.5 16.3507 17.3456 16.7279 17.0368 17.0368C16.7279 17.3456 16.3507 17.5 15.9049 17.5H4.09507ZM16.1765 4.75331L8.45257 12.4774C8.33037 12.5995 8.17676 12.662 7.99176 12.6649C7.80691 12.6677 7.65051 12.6052 7.52257 12.4774C7.39478 12.3495 7.33088 12.1945 7.33088 12.0124C7.33088 11.8304 7.39478 11.6754 7.52257 11.5474L15.2467 3.82353H12.4265C12.2387 3.82353 12.0815 3.76015 11.9549 3.63338C11.8281 3.50676 11.7647 3.34956 11.7647 3.16176C11.7647 2.97397 11.8281 2.81676 11.9549 2.69015C12.0815 2.56338 12.2387 2.5 12.4265 2.5H16.7024C16.9299 2.5 17.1196 2.5761 17.2717 2.72831C17.4239 2.88037 17.5 3.07015 17.5 3.29765V7.57353C17.5 7.76132 17.4366 7.91853 17.3099 8.04515C17.1832 8.17191 17.026 8.23529 16.8382 8.23529C16.6504 8.23529 16.4932 8.17191 16.3666 8.04515C16.2399 7.91853 16.1765 7.76132 16.1765 7.57353V4.75331Z"
-																	fill="#09549F" />
-															</svg></a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card  qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0_264_23336)">
-														<path
-															d="M29 20.4501V24.4501C29 25.0601 29 25.3601 28.9 25.6001C28.77 25.9201 28.51 26.1701 28.2 26.3001C27.96 26.4001 27.66 26.4001 27.05 26.4001C26.44 26.4001 26.14 26.4001 25.9 26.3001C25.58 26.1701 25.33 25.9101 25.2 25.6001C25.1 25.3601 25.1 25.0601 25.1 24.4501C25.1 23.8401 25.1 23.5401 25 23.3001C24.87 22.9801 24.61 22.7301 24.3 22.6001C24.06 22.5001 23.76 22.5001 23.15 22.5001H8.85C8.24 22.5001 7.94 22.5001 7.7 22.6001C7.38 22.7301 7.13 22.9901 7 23.3001C6.9 23.5401 6.9 23.8401 6.9 24.4501C6.9 25.0601 6.9 25.3601 6.8 25.6001C6.67 25.9201 6.41 26.1701 6.1 26.3001C5.86 26.4001 5.56 26.4001 4.95 26.4001C4.34 26.4001 4.04 26.4001 3.8 26.3001C3.48 26.1701 3.23 25.9101 3.1 25.6001C3 25.3601 3 25.0601 3 24.4501V20.4501C3 18.8901 3 18.1101 3.22 17.3701C3.44 16.6301 3.88 15.9801 4.74 14.6801L5.59 13.4001L6.84 10.4001C7.81 8.0701 8.29 6.9101 9.28 6.2601C10.26 5.6001 11.52 5.6001 14.04 5.6001H17.94C20.46 5.6001 21.72 5.6001 22.7 6.2601C23.68 6.9201 24.17 8.0801 25.14 10.4001L26.39 13.4001L27.24 14.6801C28.11 15.9801 28.54 16.6301 28.76 17.3701C28.98 18.1101 28.98 18.8901 28.98 20.4501H29Z"
-															stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-														<path
-															d="M3 11.4502L5.6 13.4002L7.89 13.9702C8.1 14.0202 8.31 14.0502 8.52 14.0502H23.48C23.69 14.0502 23.9 14.0202 24.11 13.9702L26.4 13.4002L29 11.4502"
-															stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-														<path d="M8.19995 18.6001H10.37" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-														<path d="M21.2 18.6001H23.37" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-													</g>
-													<defs>
-														<clipPath id="clip0_264_23336">
-															<rect width="32" height="32" fill="white" />
-														</clipPath>
-													</defs>
-												</svg>
-
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Title -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Transport and motoring</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0_264_23341)">
-														<path
-															d="M26.985 12.1899V24.9999C26.985 26.0999 26.085 26.9999 24.985 26.9999H6.98499C5.88499 26.9999 4.98499 26.0999 4.98499 24.9999V12.1899"
-															stroke="#008733" stroke-width="2" />
-														<path
-															d="M28.985 9H2.98499L4.43499 6.11C4.77499 5.43 5.46499 5 6.22499 5H25.755C26.515 5 27.205 5.43 27.545 6.11L28.995 9H28.985Z"
-															stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-														<path d="M18.1551 9V10.42C18.1551 11.62 17.1851 12.59 15.9851 12.59C14.7851 12.59 13.8151 11.62 13.8151 10.42V9"
-															stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-														<path
-															d="M7.92504 9L6.72504 11.25C6.16504 12.31 4.84504 12.7 3.79504 12.14C2.73504 11.58 2.34504 10.26 2.90504 9.21L3.00504 9.02"
-															stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-														<path
-															d="M12.625 9L12.315 10.77C12.105 11.95 10.985 12.74 9.80505 12.53C8.62505 12.32 7.83505 11.2 8.04505 10.02L8.22505 9"
-															stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-														<path
-															d="M24.0751 9L25.2751 11.25C25.8351 12.31 27.1551 12.7 28.2051 12.14C29.2651 11.58 29.6551 10.26 29.0951 9.21L28.9851 9"
-															stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-														<path
-															d="M19.375 9L19.685 10.77C19.895 11.95 21.015 12.74 22.195 12.53C23.375 12.32 24.165 11.2 23.955 10.02L23.775 9"
-															stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-														<path
-															d="M20.6251 16.5498C22.3151 16.5498 23.6951 17.9198 23.6951 19.6198V26.9998H17.5551V19.6198C17.5551 17.9298 18.9251 16.5498 20.6251 16.5498Z"
-															stroke="#008733" stroke-width="2" />
-														<path
-															d="M13.055 16.3799H9.26501C8.71273 16.3799 8.26501 16.8276 8.26501 17.3799V21.1699C8.26501 21.7222 8.71273 22.1699 9.26501 22.1699H13.055C13.6073 22.1699 14.055 21.7222 14.055 21.1699V17.3799C14.055 16.8276 13.6073 16.3799 13.055 16.3799Z"
-															stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-													</g>
-													<defs>
-														<clipPath id="clip0_264_23341">
-															<rect width="32" height="32" fill="white" />
-														</clipPath>
-													</defs>
-												</svg>
-
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Employment and jobs</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card  qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M6.01001 22.2199C9.21001 21.5399 12.8 22.1699 16 24.1299V8.78989C12.8 6.81989 9.21001 6.13989 6.01001 6.71989C6.01001 11.8899 6.01001 17.0499 6.01001 22.2199Z"
-														stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-													<path
-														d="M5.36998 9.17969C4.59998 9.47969 3.83998 9.83969 3.09998 10.2597V25.4797C7.30998 23.7097 11.79 23.3697 16 24.1197"
-														stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-													<path d="M9.18994 12.3398C10.6199 12.4198 11.9899 12.7298 13.2299 13.2298" stroke="#008733" stroke-width="2"
-														stroke-linecap="round" stroke-linejoin="round" />
-													<path d="M9.18994 15.9399C10.6199 16.0199 11.9899 16.3299 13.2299 16.8299" stroke="#008733" stroke-width="2"
-														stroke-linecap="round" stroke-linejoin="round" />
-													<path
-														d="M25.99 22.2197C22.79 21.5397 19.2 22.1697 16 24.1297V8.78973C19.2 6.81973 22.79 6.13973 25.99 6.72973V22.2297V22.2197Z"
-														stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-													<path
-														d="M26.63 9.17969C27.4 9.47969 28.16 9.83969 28.9 10.2597C28.9 15.4297 28.9 20.3197 28.9 25.4797C24.69 23.7097 20.21 23.3697 16 24.1197"
-														stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-													<path d="M22.81 12.3398C21.38 12.4198 20.01 12.7298 18.77 13.2298" stroke="#008733" stroke-width="2"
-														stroke-linecap="round" stroke-linejoin="round" />
-													<path d="M22.81 15.9399C21.38 16.0199 20.01 16.3299 18.77 16.8299" stroke="#008733" stroke-width="2"
-														stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Title -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Education and training</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M16 29C23.1797 29 29 23.1797 29 16C29 8.8203 23.1797 3 16 3C8.8203 3 3 8.8203 3 16C3 23.1797 8.8203 29 16 29Z"
-														stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-													<path d="M23.26 13.5802H18.42V8.74023H13.58V13.5802H8.73999V18.4202H13.58V23.2602H18.42V18.4202H23.26V13.5802Z"
-														stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-												</svg>
-
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Health and wellbeing</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M15.9501 19.3847C17.4744 19.3847 18.7101 18.1491 18.7101 16.6247C18.7101 15.1004 17.4744 13.8647 15.9501 13.8647C14.4258 13.8647 13.1901 15.1004 13.1901 16.6247C13.1901 18.1491 14.4258 19.3847 15.9501 19.3847Z"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M23.9899 19.685C25.2602 19.685 26.2899 18.6552 26.2899 17.385C26.2899 16.1147 25.2602 15.085 23.9899 15.085C22.7197 15.085 21.6899 16.1147 21.6899 17.385C21.6899 18.6552 22.7197 19.685 23.9899 19.685Z"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M7.92 19.685C9.19025 19.685 10.22 18.6552 10.22 17.385C10.22 16.1147 9.19025 15.085 7.92 15.085C6.64974 15.085 5.62 16.1147 5.62 17.385C5.62 18.6552 6.64974 19.685 7.92 19.685Z"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M20.9201 26.995V25.535C20.9201 23.675 19.4101 22.165 17.5501 22.165H14.3501C12.4901 22.165 10.9801 23.675 10.9801 25.535V26.995"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path d="M28.9501 26.175V25.765C28.9501 23.905 27.4401 22.395 25.5801 22.395H22.8401" stroke="#008733"
-														stroke-width="2" stroke-linecap="round" />
-													<path d="M3.05005 26.175V25.765C3.05005 23.905 4.56005 22.395 6.42005 22.395H9.16005" stroke="#008733"
-														stroke-width="2" stroke-linecap="round" />
-													<path d="M15.9501 8.28488V5.00488" stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path d="M20.5901 8.82502L21.6201 6.64502" stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path d="M23.89 11.9548L25.83 10.4648" stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path d="M8.04011 11.9548L6.11011 10.4648" stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path d="M11.2401 8.82502L10.2101 6.64502" stroke="#008733" stroke-width="2" stroke-linecap="round" />
-												</svg>
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Community support</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card  qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="34" height="38" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0_264_23342)">
-														<path
-															d="M5.76003 21.8203H22.09C23.6 21.8203 24.82 23.0403 24.82 24.5503V26.8203H3.03003V24.5503C3.03003 23.0403 4.25003 21.8203 5.76003 21.8203Z"
-															stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-														<path
-															d="M22.08 21.8202H5.78003L7.35003 9.42018C7.66003 6.99018 9.53003 5.18018 11.73 5.18018H16.12C18.32 5.18018 20.19 6.99018 20.5 9.42018L22.07 21.8202H22.08Z"
-															stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-														<path
-															d="M13.93 11.7803C15.21 11.7803 16.25 12.8203 16.25 14.1003V21.8203H11.6V14.1003C11.6 12.8203 12.64 11.7803 13.92 11.7803H13.93Z"
-															stroke="#008733" stroke-width="2" stroke-linejoin="round" />
-														<path d="M24.72 11.53L26.93 11.23" stroke="#008733" stroke-width="2" stroke-linecap="round"
-															stroke-linejoin="round" />
-														<path d="M24.08 8.08031L25.86 6.32031" stroke="#008733" stroke-width="2" stroke-linecap="round"
-															stroke-linejoin="round" />
-														<path d="M24.72 15.0601L26.82 16.0501" stroke="#008733" stroke-width="2" stroke-linecap="round"
-															stroke-linejoin="round" />
-														<path d="M3.21 11.53L1 11.23" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-														<path d="M3.84995 8.08031L2.06995 6.32031" stroke="#008733" stroke-width="2" stroke-linecap="round"
-															stroke-linejoin="round" />
-														<path d="M3.20999 15.0601L1.10999 16.0501" stroke="#008733" stroke-width="2" stroke-linecap="round"
-															stroke-linejoin="round" />
-													</g>
-													<defs>
-														<clipPath id="clip0_264_23342">
-															<rect width="27.93" height="32" fill="white" />
-														</clipPath>
-													</defs>
-												</svg>
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Title -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Emergency services and safety</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M7.235 12.3551C7.235 10.8951 8.485 10.3751 9.115 10.3751C10.355 10.3751 10.995 11.3151 10.995 12.3551C10.995 14.7751 9.315 16.0051 7.245 16.0051C5.175 16.0051 3.495 14.0451 3.495 11.6251C3.495 9.20512 5.175 7.24512 7.245 7.24512H24.755C26.825 7.24512 28.505 9.20512 28.505 11.6251C28.505 14.0451 26.825 16.0051 24.755 16.0051C22.685 16.0051 21.005 14.7751 21.005 12.3551C21.005 11.3151 21.635 10.3751 22.885 10.3751C23.515 10.3751 24.765 10.8951 24.765 12.3551"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path
-														d="M4.73499 26.0049C4.73499 25.3149 5.29499 24.7549 5.98499 24.7549H25.995C26.685 24.7549 27.245 25.3149 27.245 26.0049V27.2549C27.245 27.9449 26.685 28.5049 25.995 28.5049H5.98499C5.29499 28.5049 4.73499 27.9449 4.73499 27.2549V26.0049Z"
-														stroke="#008733" stroke-width="2" />
-													<path d="M17.245 12.2451H14.745" stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path d="M12.865 24.7549V19.7549M19.115 24.7549V19.7549" stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path
-														d="M24.745 7.24512C24.745 5.47512 24.745 4.59512 24.195 4.04512C23.645 3.49512 22.765 3.49512 20.995 3.49512H10.995C9.225 3.49512 8.34499 3.49512 7.79499 4.04512C7.24499 4.59512 7.245 5.47512 7.245 7.24512"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path d="M7.23499 15.9951V24.7451H24.745V15.9951" stroke="#008733" stroke-width="2" stroke-linecap="round" />
-												</svg>
-
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Your rights, crime and law</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M16 29.0001V12.1001" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-													<path
-														d="M12.1 23.8C9.95005 23.8 8.20005 22.01 8.20005 19.85C5.99005 19.53 4.30005 17.64 4.30005 15.35C4.30005 13.4 5.52005 11.74 7.24005 11.09C7.02005 10.6 6.90005 10.06 6.90005 9.5C6.90005 7.35 8.65005 5.6 10.8 5.6C11.31 5.6 11.79 5.7 12.24 5.87C12.69 4.21 14.21 3 16 3C17.79 3 19.31 4.22 19.76 5.87C20.2 5.69 20.69 5.6 21.2 5.6C23.35 5.6 25.1 7.35 25.1 9.5C25.1 10.07 24.98 10.61 24.76 11.09C26.48 11.74 27.7 13.4 27.7 15.35C27.7 17.64 26 19.54 23.8 19.85C23.8 22 22.05 23.8 19.9 23.8"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-													<path d="M16 19.8999L19.25 16.6499" stroke="#008733" stroke-width="2" stroke-linecap="round"
-														stroke-linejoin="round" />
-													<path d="M16 17.2998L12.75 14.0498" stroke="#008733" stroke-width="2" stroke-linecap="round"
-														stroke-linejoin="round" />
-													<path d="M13.4 29H18.6" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Environment, land and water</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card  qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M17.3 2.97021L2.96997 9.49021" stroke="#008733" stroke-width="2" stroke-linecap="round"
-														stroke-linejoin="round" />
-													<path d="M16 4.27002V29.03" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-													<path d="M16 9.49023L29.03 16.0102" stroke="#008733" stroke-width="2" stroke-linecap="round"
-														stroke-linejoin="round" />
-													<path d="M24.39 19.8701H19.96V28.8601H24.39V19.8701Z" stroke="#008733" stroke-width="2" stroke-linecap="round"
-														stroke-linejoin="round" />
-													<path d="M12.27 13.3003H8V18.1803H12.27V13.3003Z" stroke="#008733" stroke-width="2" stroke-linecap="round"
-														stroke-linejoin="round" />
-													<path d="M12.27 18.1704H8V23.0504H12.27V18.1704Z" stroke="#008733" stroke-width="2" stroke-linecap="round"
-														stroke-linejoin="round" />
-													<path
-														d="M28 15.5901V27.0301C28 28.1301 27.1 29.0301 26 29.0301H6.44995C5.34995 29.0301 4.44995 28.1301 4.44995 27.0301V8.81006"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Title -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Homes and housing</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<li><a href="#lkdasd">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_264_23336)">
+											<path
+												d="M29 20.4501V24.4501C29 25.0601 29 25.3601 28.9 25.6001C28.77 25.9201 28.51 26.1701 28.2 26.3001C27.96 26.4001 27.66 26.4001 27.05 26.4001C26.44 26.4001 26.14 26.4001 25.9 26.3001C25.58 26.1701 25.33 25.9101 25.2 25.6001C25.1 25.3601 25.1 25.0601 25.1 24.4501C25.1 23.8401 25.1 23.5401 25 23.3001C24.87 22.9801 24.61 22.7301 24.3 22.6001C24.06 22.5001 23.76 22.5001 23.15 22.5001H8.85C8.24 22.5001 7.94 22.5001 7.7 22.6001C7.38 22.7301 7.13 22.9901 7 23.3001C6.9 23.5401 6.9 23.8401 6.9 24.4501C6.9 25.0601 6.9 25.3601 6.8 25.6001C6.67 25.9201 6.41 26.1701 6.1 26.3001C5.86 26.4001 5.56 26.4001 4.95 26.4001C4.34 26.4001 4.04 26.4001 3.8 26.3001C3.48 26.1701 3.23 25.9101 3.1 25.6001C3 25.3601 3 25.0601 3 24.4501V20.4501C3 18.8901 3 18.1101 3.22 17.3701C3.44 16.6301 3.88 15.9801 4.74 14.6801L5.59 13.4001L6.84 10.4001C7.81 8.0701 8.29 6.9101 9.28 6.2601C10.26 5.6001 11.52 5.6001 14.04 5.6001H17.94C20.46 5.6001 21.72 5.6001 22.7 6.2601C23.68 6.9201 24.17 8.0801 25.14 10.4001L26.39 13.4001L27.24 14.6801C28.11 15.9801 28.54 16.6301 28.76 17.3701C28.98 18.1101 28.98 18.8901 28.98 20.4501H29Z"
+												stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+											<path
+												d="M3 11.4502L5.6 13.4002L7.89 13.9702C8.1 14.0202 8.31 14.0502 8.52 14.0502H23.48C23.69 14.0502 23.9 14.0202 24.11 13.9702L26.4 13.4002L29 11.4502"
+												stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M8.19995 18.6001H10.37" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M21.2 18.6001H23.37" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										</g>
+										<defs>
+											<clipPath id="clip0_264_23336">
+												<rect width="32" height="32" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>Transport and motoring</a></li>
+								<li><a href="#aweawetwet">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_264_23341)">
+											<path
+												d="M26.985 12.1899V24.9999C26.985 26.0999 26.085 26.9999 24.985 26.9999H6.98499C5.88499 26.9999 4.98499 26.0999 4.98499 24.9999V12.1899"
+												stroke="#008733" stroke-width="2" />
+											<path
+												d="M28.985 9H2.98499L4.43499 6.11C4.77499 5.43 5.46499 5 6.22499 5H25.755C26.515 5 27.205 5.43 27.545 6.11L28.995 9H28.985Z"
+												stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+											<path d="M18.1551 9V10.42C18.1551 11.62 17.1851 12.59 15.9851 12.59C14.7851 12.59 13.8151 11.62 13.8151 10.42V9"
+												stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+											<path
+												d="M7.92504 9L6.72504 11.25C6.16504 12.31 4.84504 12.7 3.79504 12.14C2.73504 11.58 2.34504 10.26 2.90504 9.21L3.00504 9.02"
+												stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+											<path
+												d="M12.625 9L12.315 10.77C12.105 11.95 10.985 12.74 9.80505 12.53C8.62505 12.32 7.83505 11.2 8.04505 10.02L8.22505 9"
+												stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+											<path
+												d="M24.0751 9L25.2751 11.25C25.8351 12.31 27.1551 12.7 28.2051 12.14C29.2651 11.58 29.6551 10.26 29.0951 9.21L28.9851 9"
+												stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+											<path
+												d="M19.375 9L19.685 10.77C19.895 11.95 21.015 12.74 22.195 12.53C23.375 12.32 24.165 11.2 23.955 10.02L23.775 9"
+												stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+											<path
+												d="M20.6251 16.5498C22.3151 16.5498 23.6951 17.9198 23.6951 19.6198V26.9998H17.5551V19.6198C17.5551 17.9298 18.9251 16.5498 20.6251 16.5498Z"
+												stroke="#008733" stroke-width="2" />
+											<path
+												d="M13.055 16.3799H9.26501C8.71273 16.3799 8.26501 16.8276 8.26501 17.3799V21.1699C8.26501 21.7222 8.71273 22.1699 9.26501 22.1699H13.055C13.6073 22.1699 14.055 21.7222 14.055 21.1699V17.3799C14.055 16.8276 13.6073 16.3799 13.055 16.3799Z"
+												stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+										</g>
+										<defs>
+											<clipPath id="clip0_264_23341">
+												<rect width="32" height="32" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>Employment and jobs</a></li>
+								<li><a href="#adhrmew">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M6.01001 22.2199C9.21001 21.5399 12.8 22.1699 16 24.1299V8.78989C12.8 6.81989 9.21001 6.13989 6.01001 6.71989C6.01001 11.8899 6.01001 17.0499 6.01001 22.2199Z"
+											stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+										<path
+											d="M5.36998 9.17969C4.59998 9.47969 3.83998 9.83969 3.09998 10.2597V25.4797C7.30998 23.7097 11.79 23.3697 16 24.1197"
+											stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+										<path d="M9.18994 12.3398C10.6199 12.4198 11.9899 12.7298 13.2299 13.2298" stroke="#008733" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M9.18994 15.9399C10.6199 16.0199 11.9899 16.3299 13.2299 16.8299" stroke="#008733" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M25.99 22.2197C22.79 21.5397 19.2 22.1697 16 24.1297V8.78973C19.2 6.81973 22.79 6.13973 25.99 6.72973V22.2297V22.2197Z"
+											stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+										<path
+											d="M26.63 9.17969C27.4 9.47969 28.16 9.83969 28.9 10.2597C28.9 15.4297 28.9 20.3197 28.9 25.4797C24.69 23.7097 20.21 23.3697 16 24.1197"
+											stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+										<path d="M22.81 12.3398C21.38 12.4198 20.01 12.7298 18.77 13.2298" stroke="#008733" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M22.81 15.9399C21.38 16.0199 20.01 16.3299 18.77 16.8299" stroke="#008733" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>Education and training</a></li>
+								<li><a href="#fmdtmdtymr">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M16 29C23.1797 29 29 23.1797 29 16C29 8.8203 23.1797 3 16 3C8.8203 3 3 8.8203 3 16C3 23.1797 8.8203 29 16 29Z"
+											stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+										<path d="M23.26 13.5802H18.42V8.74023H13.58V13.5802H8.73999V18.4202H13.58V23.2602H18.42V18.4202H23.26V13.5802Z"
+											stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+									</svg>Health and wellbeing</a></li>
+								<li><a href="#aegahfd">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M15.9501 19.3847C17.4744 19.3847 18.7101 18.1491 18.7101 16.6247C18.7101 15.1004 17.4744 13.8647 15.9501 13.8647C14.4258 13.8647 13.1901 15.1004 13.1901 16.6247C13.1901 18.1491 14.4258 19.3847 15.9501 19.3847Z"
+											stroke="#008733" stroke-width="2" />
+										<path
+											d="M23.9899 19.685C25.2602 19.685 26.2899 18.6552 26.2899 17.385C26.2899 16.1147 25.2602 15.085 23.9899 15.085C22.7197 15.085 21.6899 16.1147 21.6899 17.385C21.6899 18.6552 22.7197 19.685 23.9899 19.685Z"
+											stroke="#008733" stroke-width="2" />
+										<path
+											d="M7.92 19.685C9.19025 19.685 10.22 18.6552 10.22 17.385C10.22 16.1147 9.19025 15.085 7.92 15.085C6.64974 15.085 5.62 16.1147 5.62 17.385C5.62 18.6552 6.64974 19.685 7.92 19.685Z"
+											stroke="#008733" stroke-width="2" />
+										<path
+											d="M20.9201 26.995V25.535C20.9201 23.675 19.4101 22.165 17.5501 22.165H14.3501C12.4901 22.165 10.9801 23.675 10.9801 25.535V26.995"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path d="M28.9501 26.175V25.765C28.9501 23.905 27.4401 22.395 25.5801 22.395H22.8401" stroke="#008733"
+											stroke-width="2" stroke-linecap="round" />
+										<path d="M3.05005 26.175V25.765C3.05005 23.905 4.56005 22.395 6.42005 22.395H9.16005" stroke="#008733"
+											stroke-width="2" stroke-linecap="round" />
+										<path d="M15.9501 8.28488V5.00488" stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path d="M20.5901 8.82502L21.6201 6.64502" stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path d="M23.89 11.9548L25.83 10.4648" stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path d="M8.04011 11.9548L6.11011 10.4648" stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path d="M11.2401 8.82502L10.2101 6.64502" stroke="#008733" stroke-width="2" stroke-linecap="round" />
+									</svg>Community support</a></li>
+								<li><a href="#dfggaerheh">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_264_23342)">
+											<path
+												d="M7.79506 21.8203H24.1251C25.6351 21.8203 26.8551 23.0403 26.8551 24.5503V26.8203H5.06506V24.5503C5.06506 23.0403 6.28506 21.8203 7.79506 21.8203Z"
+												stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+											<path
+												d="M24.1151 21.8202H7.81506L9.38506 9.42018C9.69506 6.99018 11.5651 5.18018 13.7651 5.18018H18.1551C20.3551 5.18018 22.2251 6.99018 22.5351 9.42018L24.1051 21.8202H24.1151Z"
+												stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+											<path
+												d="M15.965 11.7803C17.245 11.7803 18.285 12.8203 18.285 14.1003V21.8203H13.635V14.1003C13.635 12.8203 14.675 11.7803 15.955 11.7803H15.965Z"
+												stroke="#008733" stroke-width="2" stroke-linejoin="round" />
+											<path d="M26.755 11.53L28.965 11.23" stroke="#008733" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M26.115 8.08031L27.895 6.32031" stroke="#008733" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M26.755 15.0601L28.855 16.0501" stroke="#008733" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M5.24503 11.53L3.03503 11.23" stroke="#008733" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M5.88498 8.08031L4.10498 6.32031" stroke="#008733" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M5.24502 15.0601L3.14502 16.0501" stroke="#008733" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</g>
+										<defs>
+											<clipPath id="clip0_264_23342">
+												<rect width="32" height="32" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+										Emergency services and safety</a></li>
+								<li><a href="#dfaerae">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.235 12.3551C7.235 10.8951 8.485 10.3751 9.115 10.3751C10.355 10.3751 10.995 11.3151 10.995 12.3551C10.995 14.7751 9.315 16.0051 7.245 16.0051C5.175 16.0051 3.495 14.0451 3.495 11.6251C3.495 9.20512 5.175 7.24512 7.245 7.24512H24.755C26.825 7.24512 28.505 9.20512 28.505 11.6251C28.505 14.0451 26.825 16.0051 24.755 16.0051C22.685 16.0051 21.005 14.7751 21.005 12.3551C21.005 11.3151 21.635 10.3751 22.885 10.3751C23.515 10.3751 24.765 10.8951 24.765 12.3551"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path
+											d="M4.73499 26.0049C4.73499 25.3149 5.29499 24.7549 5.98499 24.7549H25.995C26.685 24.7549 27.245 25.3149 27.245 26.0049V27.2549C27.245 27.9449 26.685 28.5049 25.995 28.5049H5.98499C5.29499 28.5049 4.73499 27.9449 4.73499 27.2549V26.0049Z"
+											stroke="#008733" stroke-width="2" />
+										<path d="M17.245 12.2451H14.745" stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path d="M12.865 24.7549V19.7549M19.115 24.7549V19.7549" stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path
+											d="M24.745 7.24512C24.745 5.47512 24.745 4.59512 24.195 4.04512C23.645 3.49512 22.765 3.49512 20.995 3.49512H10.995C9.225 3.49512 8.34499 3.49512 7.79499 4.04512C7.24499 4.59512 7.245 5.47512 7.245 7.24512"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path d="M7.23499 15.9951V24.7451H24.745V15.9951" stroke="#008733" stroke-width="2" stroke-linecap="round" />
+									</svg>
+									Your rights, crime and law</a></li>
+								<li><a href="#kerarg">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 29.0001V12.1001" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M12.1 23.8C9.95005 23.8 8.20005 22.01 8.20005 19.85C5.99005 19.53 4.30005 17.64 4.30005 15.35C4.30005 13.4 5.52005 11.74 7.24005 11.09C7.02005 10.6 6.90005 10.06 6.90005 9.5C6.90005 7.35 8.65005 5.6 10.8 5.6C11.31 5.6 11.79 5.7 12.24 5.87C12.69 4.21 14.21 3 16 3C17.79 3 19.31 4.22 19.76 5.87C20.2 5.69 20.69 5.6 21.2 5.6C23.35 5.6 25.1 7.35 25.1 9.5C25.1 10.07 24.98 10.61 24.76 11.09C26.48 11.74 27.7 13.4 27.7 15.35C27.7 17.64 26 19.54 23.8 19.85C23.8 22 22.05 23.8 19.9 23.8"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M16 19.8999L19.25 16.6499" stroke="#008733" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M16 17.2998L12.75 14.0498" stroke="#008733" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M13.4 29H18.6" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									Environment, land and water</a></li>
+								<li><a href="#aerkrsf">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17.3 2.97021L2.96997 9.49021" stroke="#008733" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M16 4.27002V29.03" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M16 9.49023L29.03 16.0102" stroke="#008733" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M24.39 19.8701H19.96V28.8601H24.39V19.8701Z" stroke="#008733" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M12.27 13.3003H8V18.1803H12.27V13.3003Z" stroke="#008733" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M12.27 18.1704H8V23.0504H12.27V18.1704Z" stroke="#008733" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path
+											d="M28 15.5901V27.0301C28 28.1301 27.1 29.0301 26 29.0301H6.44995C5.34995 29.0301 4.44995 28.1301 4.44995 27.0301V8.81006"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>Homes and housing</a></li>
+								<li><a href="#nswjf">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path
 														d="M28.7589 7.84116C28.5489 6.71116 27.9889 5.65116 27.1589 4.82116C26.3289 3.99116 25.2689 3.43116 24.1389 3.22116C18.3789 2.26116 12.3289 4.01116 8.17893 8.16116C4.02893 12.3112 2.26893 18.3512 3.21893 24.1112C3.42893 25.2412 3.98893 26.3012 4.81893 27.1312C5.64893 27.9612 6.70893 28.5212 7.83893 28.7312C13.5589 29.8212 19.6989 27.9412 23.8089 23.8012C27.9989 19.6812 29.7589 13.6112 28.7589 7.85116V7.84116Z"
 														stroke="#008733" stroke-width="2" />
@@ -1248,279 +1048,114 @@
 														stroke-linejoin="round" />
 													<path d="M11.8889 16.0011L16.0089 20.1211M15.9989 11.8911L20.1189 16.0111" stroke="#008733" stroke-width="2"
 														stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Recreation, sport and arts</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M9.33996 14.8745C11.0023 14.8745 12.35 13.5269 12.35 11.8645C12.35 10.2021 11.0023 8.85449 9.33996 8.85449C7.67758 8.85449 6.32996 10.2021 6.32996 11.8645C6.32996 13.5269 7.67758 14.8745 9.33996 14.8745Z"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M15.76 21.6544C17.102 21.6544 18.19 20.5665 18.19 19.2244C18.19 17.8824 17.102 16.7944 15.76 16.7944C14.4179 16.7944 13.33 17.8824 13.33 19.2244C13.33 20.5665 14.4179 21.6544 15.76 21.6544Z"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M23.07 17.3344C24.6109 17.3344 25.86 16.0853 25.86 14.5444C25.86 13.0035 24.6109 11.7544 23.07 11.7544C21.5292 11.7544 20.28 13.0035 20.28 14.5444C20.28 16.0853 21.5292 17.3344 23.07 17.3344Z"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M4.09998 26.7047V22.4247C4.09998 20.0047 6.05998 18.0347 8.48998 18.0347H10.31C11.17 18.0347 11.98 18.2847 12.66 18.7047"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path
-														d="M13.2099 23.3545C13.2099 23.4645 13.1899 27.2245 13.1899 27.3445V27.9145C13.1899 28.4345 13.6099 28.8545 14.1299 28.8545H17.3899C17.9099 28.8545 18.3299 28.4345 18.3299 27.9145V23.4045"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path d="M27.9 26.7043V24.0143C27.9 21.8543 26.15 20.1143 24 20.1143H22.38C21.61 20.1143 20.04 20.1143 18.77 21.6643"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path d="M20.66 27.1344C20.66 24.4244 18.47 22.2344 15.76 22.2344C13.05 22.2344 10.86 24.4244 10.86 27.1344"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-													<path
-														d="M15.35 3.32456C16.47 2.73456 17.41 3.85456 17.46 3.85456C17.51 3.85456 18.54 2.71456 19.57 3.32456C20.6 3.93456 20.79 5.79456 18.49 7.16456C18.05 7.42456 17.62 7.55456 17.45 7.55456C17.45 7.55456 16.85 7.42456 16.41 7.16456C14.11 5.79456 14.21 3.91456 15.33 3.32456H15.35Z"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Parents and families</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0_305_11952)">
-														<path
-															d="M8.89001 10.6699C9.68001 11.5599 12.21 13.3399 16 13.3399C19.79 13.3399 22.32 11.5599 23.11 10.6699M14.22 13.3399L13.33 24.8899C13.78 23.6999 14.93 19.5599 15.99 19.5599C17.05 19.5599 18.21 23.6899 18.65 24.8899L17.76 13.3399M17.78 8.88986C17.78 9.86986 16.98 10.6699 16 10.6699C15.02 10.6699 14.22 9.86986 14.22 8.88986C14.22 7.90986 15.02 7.10986 16 7.10986C16.98 7.10986 17.78 7.90986 17.78 8.88986Z"
-															stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-														<path
-															d="M16 28.9001C23.1244 28.9001 28.9 23.1246 28.9 16.0001C28.9 8.87562 23.1244 3.1001 16 3.1001C8.8755 3.1001 3.09998 8.87562 3.09998 16.0001C3.09998 23.1246 8.8755 28.9001 16 28.9001Z"
-															stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													</g>
-													<defs>
-														<clipPath id="clip0_305_11952">
-															<rect width="32" height="32" fill="#008733" />
-														</clipPath>
-													</defs>
-												</svg>
-
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">People with disability</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card  qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M6.97117 10.4151C6.97117 9.6151 6.97117 9.2151 7.06117 8.8851C7.30117 7.9951 7.99117 7.2951 8.88117 7.0651C9.21117 6.9751 9.61117 6.9751 10.4112 6.9751H21.5912C22.3912 6.9751 22.7912 6.9751 23.1212 7.0651C24.0112 7.3051 24.7112 7.9951 24.9412 8.8851C25.0312 9.2151 25.0312 9.6151 25.0312 10.4151C25.0312 12.0151 25.0312 12.8151 24.8512 13.4751C24.3712 15.2551 22.9812 16.6451 21.2012 17.1251C20.5412 17.3051 19.7412 17.3051 18.1412 17.3051H13.8412C12.2412 17.3051 11.4412 17.3051 10.7812 17.1251C9.00117 16.6451 7.61117 15.2551 7.13117 13.4751C6.95117 12.8151 6.95117 12.0151 6.95117 10.4151H6.97117Z"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M23.7412 14.7148C24.2212 15.4648 24.4612 15.8448 24.6312 16.2448C24.7812 16.6048 24.8912 16.9848 24.9612 17.3648C25.0312 17.7948 25.0312 18.2448 25.0312 19.1348V21.1548C25.0312 24.8048 25.0312 26.6248 23.9012 27.7648C22.7712 28.8948 20.9412 28.8948 17.2912 28.8948H14.7112C11.0612 28.8948 9.24119 28.8948 8.10119 27.7648C6.97119 26.6348 6.97119 24.8048 6.97119 21.1548V19.1348C6.97119 18.2448 6.97119 17.7948 7.04119 17.3648C7.11119 16.9748 7.22119 16.6048 7.37119 16.2448C7.54119 15.8448 7.78119 15.4648 8.26119 14.7148"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M6.97114 26.3252C6.10114 26.3252 5.66114 26.3252 5.30114 26.2252C4.50114 26.0052 3.85114 25.4452 3.54114 24.7052C3.40114 24.3652 3.36114 23.9552 3.27114 23.1252L3.19114 22.3252C3.09114 21.3752 3.04114 20.8952 3.24114 20.5452C3.69114 19.7552 4.71114 19.8752 5.50114 19.8752H6.97114"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M25.0311 26.3247C25.9011 26.3247 26.3411 26.3247 26.7011 26.2247C27.5011 26.0047 28.1511 25.4447 28.4611 24.7047C28.6011 24.3647 28.6411 23.9547 28.7311 23.1147L28.8111 22.3147C28.8911 21.5447 29.0911 20.5947 28.3411 20.0947C27.9911 19.8647 27.5011 19.8647 26.5011 19.8647H25.0311"
-														stroke="#008733" stroke-width="2" />
-													<path d="M12.1311 19.2251V17.9351" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-													<path d="M19.8711 19.2251V17.9351" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-													<path
-														d="M19.8711 6.97498C19.8711 4.83498 18.1411 3.10498 16.0011 3.10498C13.8611 3.10498 12.1311 4.83498 12.1311 6.97498"
-														stroke="#008733" stroke-width="2" />
-												</svg>
-
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Title -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Youth</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M15.9501 16.8601C16.4195 16.8601 16.8001 16.4751 16.8001 16.0001C16.8001 15.5252 16.4195 15.1401 15.9501 15.1401C15.4807 15.1401 15.1001 15.5252 15.1001 16.0001C15.1001 16.4751 15.4807 16.8601 15.9501 16.8601Z"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M15.95 19.7198C17.9714 19.7198 19.61 18.0543 19.61 15.9998C19.61 13.9453 17.9714 12.2798 15.95 12.2798C13.9287 12.2798 12.29 13.9453 12.29 15.9998C12.29 18.0543 13.9287 19.7198 15.95 19.7198Z"
-														stroke="#008733" stroke-width="2" />
-													<path
-														d="M15.9501 22.73C19.6062 22.73 22.5701 19.7169 22.5701 16C22.5701 12.2831 19.6062 9.27002 15.9501 9.27002C12.294 9.27002 9.33008 12.2831 9.33008 16C9.33008 19.7169 12.294 22.73 15.9501 22.73Z"
-														stroke="#008733" stroke-width="2" />
-													<path d="M13.77 6.3101V5.2801C13.77 4.0801 14.74 3.1001 15.95 3.1001C17.15 3.1001 18.13 4.0701 18.13 5.2801V6.3101"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path
-														d="M25.74 13.8203H26.77C27.97 13.8203 28.95 14.7903 28.95 16.0003C28.95 17.2003 27.98 18.1803 26.77 18.1803H25.74"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path d="M13.77 6.3101V5.2801C13.77 4.0801 14.74 3.1001 15.95 3.1001C17.15 3.1001 18.13 4.0701 18.13 5.2801V6.3101"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path
-														d="M6.26005 18.1803H5.23005C4.03005 18.1803 3.05005 17.2103 3.05005 16.0003C3.05005 14.8003 4.02005 13.8203 5.23005 13.8203H6.26005"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path
-														d="M18.23 25.6899V26.7199C18.23 27.9199 17.26 28.8999 16.05 28.8999C14.85 28.8999 13.87 27.9299 13.87 26.7199V25.6899"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-												</svg>
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Aboriginal and Torres Strait
-																Islander peoples</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<div class="qld__card qld__card__action qld__card--icon qld__card--icon-left">
-											<!-- Icon -->
-											<div class="qld__card__icon">
-												<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M11.3434 3.78087C13.2534 2.60087 14.9134 3.07087 15.9234 3.83087C16.3334 4.14087 16.5434 4.30087 16.6634 4.30087C16.7834 4.30087 16.9934 4.14087 17.4034 3.83087C18.4034 3.07087 20.0734 2.59087 21.9834 3.78087C24.4834 5.33087 25.0534 10.4509 19.2734 14.7709C18.1734 15.5909 17.6234 16.0009 16.6634 16.0009C15.7034 16.0009 15.1634 15.5909 14.0534 14.7709C8.27342 10.4609 8.83342 5.34087 11.3434 3.78087Z"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" />
-													<path
-														d="M5.65344 18.6011H8.75344C9.13344 18.6011 9.51344 18.6911 9.85344 18.8511L12.4934 20.1311C12.8334 20.2911 13.2134 20.3811 13.5934 20.3811H14.9434C16.2434 20.3811 17.3034 21.4011 17.3034 22.6711C17.3034 22.7211 17.2734 22.7711 17.2134 22.7811L13.9234 23.6911C13.3334 23.8511 12.7034 23.8011 12.1534 23.5311L9.33344 22.1611"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-													<path
-														d="M17.3034 21.8307L23.2434 20.0007C24.2934 19.6707 25.4334 20.0607 26.0934 20.9707C26.5734 21.6307 26.3734 22.5807 25.6834 22.9807L15.9534 28.5907C15.3334 28.9507 14.6034 29.0307 13.9234 28.8307L5.64343 26.3707"
-														stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-
-											</div>
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Seniors</a>
-														</h3>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</li>
-
-								</ul>
-							</div>
-
+									</svg>
+									Recreation, sport and arts</a></li>
+								<li><a href="#ksfdh">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M9.33996 14.8745C11.0023 14.8745 12.35 13.5269 12.35 11.8645C12.35 10.2021 11.0023 8.85449 9.33996 8.85449C7.67758 8.85449 6.32996 10.2021 6.32996 11.8645C6.32996 13.5269 7.67758 14.8745 9.33996 14.8745Z"
+											stroke="#008733" stroke-width="2" />
+										<path
+											d="M15.76 21.6544C17.102 21.6544 18.19 20.5665 18.19 19.2244C18.19 17.8824 17.102 16.7944 15.76 16.7944C14.4179 16.7944 13.33 17.8824 13.33 19.2244C13.33 20.5665 14.4179 21.6544 15.76 21.6544Z"
+											stroke="#008733" stroke-width="2" />
+										<path
+											d="M23.07 17.3344C24.6109 17.3344 25.86 16.0853 25.86 14.5444C25.86 13.0035 24.6109 11.7544 23.07 11.7544C21.5292 11.7544 20.28 13.0035 20.28 14.5444C20.28 16.0853 21.5292 17.3344 23.07 17.3344Z"
+											stroke="#008733" stroke-width="2" />
+										<path
+											d="M4.09998 26.7047V22.4247C4.09998 20.0047 6.05998 18.0347 8.48998 18.0347H10.31C11.17 18.0347 11.98 18.2847 12.66 18.7047"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path
+											d="M13.2099 23.3545C13.2099 23.4645 13.1899 27.2245 13.1899 27.3445V27.9145C13.1899 28.4345 13.6099 28.8545 14.1299 28.8545H17.3899C17.9099 28.8545 18.3299 28.4345 18.3299 27.9145V23.4045"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path d="M27.9 26.7043V24.0143C27.9 21.8543 26.15 20.1143 24 20.1143H22.38C21.61 20.1143 20.04 20.1143 18.77 21.6643"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path d="M20.66 27.1344C20.66 24.4244 18.47 22.2344 15.76 22.2344C13.05 22.2344 10.86 24.4244 10.86 27.1344"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M15.35 3.32456C16.47 2.73456 17.41 3.85456 17.46 3.85456C17.51 3.85456 18.54 2.71456 19.57 3.32456C20.6 3.93456 20.79 5.79456 18.49 7.16456C18.05 7.42456 17.62 7.55456 17.45 7.55456C17.45 7.55456 16.85 7.42456 16.41 7.16456C14.11 5.79456 14.21 3.91456 15.33 3.32456H15.35Z"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>Parents and families</a></li>
+								<li><a href="#ajiawkh">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_305_11952)">
+											<path
+												d="M8.89001 10.6699C9.68001 11.5599 12.21 13.3399 16 13.3399C19.79 13.3399 22.32 11.5599 23.11 10.6699M14.22 13.3399L13.33 24.8899C13.78 23.6999 14.93 19.5599 15.99 19.5599C17.05 19.5599 18.21 23.6899 18.65 24.8899L17.76 13.3399M17.78 8.88986C17.78 9.86986 16.98 10.6699 16 10.6699C15.02 10.6699 14.22 9.86986 14.22 8.88986C14.22 7.90986 15.02 7.10986 16 7.10986C16.98 7.10986 17.78 7.90986 17.78 8.88986Z"
+												stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+											<path
+												d="M16 28.9001C23.1244 28.9001 28.9 23.1246 28.9 16.0001C28.9 8.87562 23.1244 3.1001 16 3.1001C8.8755 3.1001 3.09998 8.87562 3.09998 16.0001C3.09998 23.1246 8.8755 28.9001 16 28.9001Z"
+												stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										</g>
+										<defs>
+											<clipPath id="clip0_305_11952">
+												<rect width="32" height="32" fill="#008733" />
+											</clipPath>
+										</defs>
+									</svg>People with disability</a></li>
+								<li><a href="#krcvn">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M6.97117 10.4151C6.97117 9.6151 6.97117 9.2151 7.06117 8.8851C7.30117 7.9951 7.99117 7.2951 8.88117 7.0651C9.21117 6.9751 9.61117 6.9751 10.4112 6.9751H21.5912C22.3912 6.9751 22.7912 6.9751 23.1212 7.0651C24.0112 7.3051 24.7112 7.9951 24.9412 8.8851C25.0312 9.2151 25.0312 9.6151 25.0312 10.4151C25.0312 12.0151 25.0312 12.8151 24.8512 13.4751C24.3712 15.2551 22.9812 16.6451 21.2012 17.1251C20.5412 17.3051 19.7412 17.3051 18.1412 17.3051H13.8412C12.2412 17.3051 11.4412 17.3051 10.7812 17.1251C9.00117 16.6451 7.61117 15.2551 7.13117 13.4751C6.95117 12.8151 6.95117 12.0151 6.95117 10.4151H6.97117Z"
+											stroke="#008733" stroke-width="2" />
+										<path
+											d="M23.7412 14.7148C24.2212 15.4648 24.4612 15.8448 24.6312 16.2448C24.7812 16.6048 24.8912 16.9848 24.9612 17.3648C25.0312 17.7948 25.0312 18.2448 25.0312 19.1348V21.1548C25.0312 24.8048 25.0312 26.6248 23.9012 27.7648C22.7712 28.8948 20.9412 28.8948 17.2912 28.8948H14.7112C11.0612 28.8948 9.24119 28.8948 8.10119 27.7648C6.97119 26.6348 6.97119 24.8048 6.97119 21.1548V19.1348C6.97119 18.2448 6.97119 17.7948 7.04119 17.3648C7.11119 16.9748 7.22119 16.6048 7.37119 16.2448C7.54119 15.8448 7.78119 15.4648 8.26119 14.7148"
+											stroke="#008733" stroke-width="2" />
+										<path
+											d="M6.97114 26.3252C6.10114 26.3252 5.66114 26.3252 5.30114 26.2252C4.50114 26.0052 3.85114 25.4452 3.54114 24.7052C3.40114 24.3652 3.36114 23.9552 3.27114 23.1252L3.19114 22.3252C3.09114 21.3752 3.04114 20.8952 3.24114 20.5452C3.69114 19.7552 4.71114 19.8752 5.50114 19.8752H6.97114"
+											stroke="#008733" stroke-width="2" />
+										<path
+											d="M25.0311 26.3247C25.9011 26.3247 26.3411 26.3247 26.7011 26.2247C27.5011 26.0047 28.1511 25.4447 28.4611 24.7047C28.6011 24.3647 28.6411 23.9547 28.7311 23.1147L28.8111 22.3147C28.8911 21.5447 29.0911 20.5947 28.3411 20.0947C27.9911 19.8647 27.5011 19.8647 26.5011 19.8647H25.0311"
+											stroke="#008733" stroke-width="2" />
+										<path d="M12.1311 19.2251V17.9351" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M19.8711 19.2251V17.9351" stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M19.8711 6.97498C19.8711 4.83498 18.1411 3.10498 16.0011 3.10498C13.8611 3.10498 12.1311 4.83498 12.1311 6.97498"
+											stroke="#008733" stroke-width="2" />
+									</svg>Youth</a></li>
+								<li><a href="#wsxer">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M15.9501 16.8601C16.4195 16.8601 16.8001 16.4751 16.8001 16.0001C16.8001 15.5252 16.4195 15.1401 15.9501 15.1401C15.4807 15.1401 15.1001 15.5252 15.1001 16.0001C15.1001 16.4751 15.4807 16.8601 15.9501 16.8601Z"
+										stroke="#008733" stroke-width="2" />
+									<path
+										d="M15.95 19.7198C17.9714 19.7198 19.61 18.0543 19.61 15.9998C19.61 13.9453 17.9714 12.2798 15.95 12.2798C13.9287 12.2798 12.29 13.9453 12.29 15.9998C12.29 18.0543 13.9287 19.7198 15.95 19.7198Z"
+										stroke="#008733" stroke-width="2" />
+									<path
+										d="M15.9501 22.73C19.6062 22.73 22.5701 19.7169 22.5701 16C22.5701 12.2831 19.6062 9.27002 15.9501 9.27002C12.294 9.27002 9.33008 12.2831 9.33008 16C9.33008 19.7169 12.294 22.73 15.9501 22.73Z"
+										stroke="#008733" stroke-width="2" />
+									<path d="M13.77 6.3101V5.2801C13.77 4.0801 14.74 3.1001 15.95 3.1001C17.15 3.1001 18.13 4.0701 18.13 5.2801V6.3101"
+										stroke="#008733" stroke-width="2" stroke-linecap="round" />
+									<path
+										d="M25.74 13.8203H26.77C27.97 13.8203 28.95 14.7903 28.95 16.0003C28.95 17.2003 27.98 18.1803 26.77 18.1803H25.74"
+										stroke="#008733" stroke-width="2" stroke-linecap="round" />
+									<path d="M13.77 6.3101V5.2801C13.77 4.0801 14.74 3.1001 15.95 3.1001C17.15 3.1001 18.13 4.0701 18.13 5.2801V6.3101"
+										stroke="#008733" stroke-width="2" stroke-linecap="round" />
+									<path
+										d="M6.26005 18.1803H5.23005C4.03005 18.1803 3.05005 17.2103 3.05005 16.0003C3.05005 14.8003 4.02005 13.8203 5.23005 13.8203H6.26005"
+										stroke="#008733" stroke-width="2" stroke-linecap="round" />
+									<path
+										d="M18.23 25.6899V26.7199C18.23 27.9199 17.26 28.8999 16.05 28.8999C14.85 28.8999 13.87 27.9299 13.87 26.7199V25.6899"
+										stroke="#008733" stroke-width="2" stroke-linecap="round" />
+								</svg>
+								Aboriginal and Torres Strait Islander peoples</a></li>
+								<li><a href="#qlpjb">
+									<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M11.3434 3.78087C13.2534 2.60087 14.9134 3.07087 15.9234 3.83087C16.3334 4.14087 16.5434 4.30087 16.6634 4.30087C16.7834 4.30087 16.9934 4.14087 17.4034 3.83087C18.4034 3.07087 20.0734 2.59087 21.9834 3.78087C24.4834 5.33087 25.0534 10.4509 19.2734 14.7709C18.1734 15.5909 17.6234 16.0009 16.6634 16.0009C15.7034 16.0009 15.1634 15.5909 14.0534 14.7709C8.27342 10.4609 8.83342 5.34087 11.3434 3.78087Z"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" />
+										<path
+											d="M5.65344 18.6011H8.75344C9.13344 18.6011 9.51344 18.6911 9.85344 18.8511L12.4934 20.1311C12.8334 20.2911 13.2134 20.3811 13.5934 20.3811H14.9434C16.2434 20.3811 17.3034 21.4011 17.3034 22.6711C17.3034 22.7211 17.2734 22.7711 17.2134 22.7811L13.9234 23.6911C13.3334 23.8511 12.7034 23.8011 12.1534 23.5311L9.33344 22.1611"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M17.3034 21.8307L23.2434 20.0007C24.2934 19.6707 25.4334 20.0607 26.0934 20.9707C26.5734 21.6307 26.3734 22.5807 25.6834 22.9807L15.9534 28.5907C15.3334 28.9507 14.6034 29.0307 13.9234 28.8307L5.64343 26.3707"
+											stroke="#008733" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									Seniors</a></li>
+								<!-- <li><a href="#">Queensland and its government</a></li> -->
+								<!-- <li><a href="#">For government employees</a></li> -->
+							</ul>
 						</div>
 
 					</section>
-
-					<!-- HAVE YOUR SAY -->
-					<section class="qld__body qld__body--dark qld__promo-panel qld__promo-panel--image-left"
-						style="padding-top: 1em !important">
-						<div class=" container-fluid">
-							<div class="qld__promo-panel__container row">
-								<div class="qld__promo-panel__container-image">
-									<div class="qld__promo-panel__image" style="background-image: url(img/have-your-say.jpg)">
-									</div>
-								</div>
-								<div class="qld__promo-panel__container-content">
-									<div class="qld__promo-panel__container-inner">
-										<!-- <div class="qld__promo-panel__container-icon">
-																									<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-																										<path
-																											d="M7.84216 23.5263L4.82034 26.5481C4.48348 26.885 4.09588 26.9621 3.65753 26.7794C3.21918 26.5967 3 26.2673 3 25.7911V5.14021C3 4.55225 3.20971 4.04855 3.62913 3.62913C4.04855 3.20971 4.55225 3 5.14021 3H26.8598C27.4478 3 27.9514 3.20971 28.3709 3.62913C28.7903 4.04855 29 4.55225 29 5.14021V21.3861C29 21.9741 28.7903 22.4778 28.3709 22.8972C27.9514 23.3166 27.4478 23.5263 26.8598 23.5263H7.84216ZM7.09842 21.8069H26.8598C26.9649 21.8069 27.0614 21.7631 27.1492 21.6755C27.2368 21.5877 27.2806 21.4912 27.2806 21.3861V5.14021C27.2806 5.03507 27.2368 4.9386 27.1492 4.85079C27.0614 4.76321 26.9649 4.71942 26.8598 4.71942H5.14021C5.03507 4.71942 4.9386 4.76321 4.85079 4.85079C4.76321 4.9386 4.71942 5.03507 4.71942 5.14021V24.2807L7.09842 21.8069ZM10.2947 14.4229C10.6297 14.4229 10.9153 14.3049 11.1513 14.0688C11.3874 13.8328 11.5054 13.5472 11.5054 13.2122C11.5054 12.8771 11.3874 12.5916 11.1513 12.3556C10.9153 12.1197 10.6297 12.0018 10.2947 12.0018C9.95375 12.0018 9.66672 12.1197 9.43363 12.3556C9.20077 12.5916 9.08434 12.8771 9.08434 13.2122C9.08434 13.5472 9.20077 13.8328 9.43363 14.0688C9.66672 14.3049 9.95375 14.4229 10.2947 14.4229ZM16.051 14.4229C16.386 14.4229 16.6716 14.3049 16.9076 14.0688C17.1434 13.8328 17.2613 13.5472 17.2613 13.2122C17.2613 12.8771 17.1434 12.5916 16.9076 12.3556C16.6716 12.1197 16.386 12.0018 16.051 12.0018C15.7159 12.0018 15.4304 12.1197 15.1943 12.3556C14.9583 12.5916 14.8403 12.8771 14.8403 13.2122C14.8403 13.5472 14.9583 13.8328 15.1943 14.0688C15.4304 14.3049 15.7159 14.4229 16.051 14.4229ZM21.6913 14.4229C22.0263 14.4229 22.3118 14.3049 22.5479 14.0688C22.7837 13.8328 22.9016 13.5472 22.9016 13.2122C22.9016 12.8771 22.7837 12.5916 22.5479 12.3556C22.3118 12.1197 22.0263 12.0018 21.6913 12.0018C21.3562 12.0018 21.0707 12.1197 20.8346 12.3556C20.5986 12.5916 20.4806 12.8771 20.4806 13.2122C20.4806 13.5472 20.5986 13.8328 20.8346 14.0688C21.0707 14.3049 21.3562 14.4229 21.6913 14.4229Z"
-																											fill="#FFE500" />
-																									</svg>
-																								</div> -->
-
-										<h2 class="qld__display-xl">Have your say</h2>
-										<div class="qld__abstract">
-											<p>Help shape government decisions that affect you and your community.</p>
-										</div>
-										<p>Share your comments and feedback on new projects, services and government policy.</p>
-										<ul class="qld__promo-panel__container-btn qld__banner__content--cta qld__link-list">
-											<!-- <li>
-																						<a class="qld__promo-panel__btn qld__btn qld__btn--primary" data-type="class" href="#jy">Have your say</a>
-																					</li> -->
-											<li>
-												<a class="qld__promo-panel__btn qld__btn qld__btn--secondary" data-type="class" href="#jy">Have your
-													say</a>
-											</li>
-
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-
 
 					<!--STAY INFORMED-->
 					<section class="qld__card--wrapper qld__body qld__body--light qld__card--wrapper-bg-colour">
@@ -1536,70 +1171,50 @@
 							<div class="row">
 								<ul class="qld__card-list qld__card-list--matchheight">
 
-																		<li class="col-xs-12 col-md-6 col-lg-4">
-																			<!-- QLD Single action default with image -->
-																			<div class="qld__card qld__card--dark qld__card__action qld__card--image">
-																				<!-- Image -->
-																				<div class="qld__responsive-media-img--bg" role="img" aria-label="A customer smiling at his two children"
-																					style="background-image: url('img/budget25-26.png');">
-																				</div>
-																				<!-- Card Inner -->
-																				<div class="qld__card__inner">
-																					<div class="qld__card__content">
-																						<div class="qld__card__content-inner">
-																							<h3 class="qld__card__title">
-																								<a aria-label="No excuse for speeding" aria-describedby="" class="qld__card--clickable__link"
-																									href="#hea">2025-26 Queensland Budget</a>
-																							</h3>
-																							<p class="qld__card__description">The Budget is a bold, practical plan to tackle the biggest challenges we're
-																								facing across the state.</p>
-																						</div>
-																					</div>
-																					<!-- Card footer -->
-																					<div class="qld__card__footer">
-																						<div class="qld__card__footer-inner">
-																							<ul class="qld__card__tags qld__tag-list" style="margin-top: 1rem;">
-																								<li class="qld__tag" tabindex="0">Budget</li>
-																							</ul>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</li>
-
 									<li class="col-xs-12 col-md-6 col-lg-4">
 										<!-- QLD Single action default with image -->
 										<div class="qld__card qld__card--dark qld__card__action qld__card--image">
 											<!-- Image -->
 											<div class="qld__responsive-media-img--bg" role="img"
-												style="background-image: url('img/place-to-call-home.png');">
+												style="background-image: url('img/police-recruits-1.jpg');">
 											</div>
 											<div class="qld__card__inner">
 												<div class="qld__card__content">
 													<div class="qld__card__content-inner">
 														<h3 class="qld__card__title">
 															<a aria-label="A place to call home" aria-describedby="" class="qld__card--clickable__link"
-																href="#gwead">A
-																place to
-																call home</a>
+																href="#gwead">Safety where you live</a>
 														</h3>
-														<p class="qld__card__description" style="text-wrap: pretty;">Unlocking, building and boosting housing
-															supply
-															to deliver a place to call home for
-															more Queenslanders.</p>
+														<p class="qld__card__description" style="text-wrap: pretty;">1,600 new police recruits with stronger laws and new programs to turn kids away from crime.</p>
 													</div>
 
 												</div>
-												<!-- Card footer -->
-												<div class="qld__card__footer">
-													<div class="qld__card__footer-inner">
-														<ul class="qld__card__tags qld__tag-list" style="margin-top: 1rem;">
-															<li class="qld__tag" tabindex="0">Housing</li><li class="qld__tag" tabindex="0">Initiative</li>
-														</ul>
-													</div>
-												</div>
+
 											</div>
 
+										</div>
+									</li>
+
+									<li class="col-xs-12 col-md-6 col-lg-4">
+										<!-- QLD Single action default with image -->
+										<div class="qld__card qld__card--dark qld__card__action qld__card--image">
+											<!-- Image -->
+											<div class="qld__responsive-media-img--bg" role="img" aria-label="A customer smiling at his two children"
+												style="background-image: url('img/health.jpg');">
+											</div>
+											<!-- Card Inner -->
+											<div class="qld__card__inner">
+												<div class="qld__card__content">
+													<div class="qld__card__content-inner">
+														<h3 class="qld__card__title">
+															<a aria-label="No excuse for speeding" aria-describedby="" class="qld__card--clickable__link"
+																href="#hea">Health services where you need</a>
+														</h3>
+														<p class="qld__card__description">Three new hospitals and ten major upgrades. More healthcare than ever.</p>
+													</div>
+												</div>
+
+											</div>
 										</div>
 									</li>
 
@@ -1607,7 +1222,7 @@
 
 										<div class="qld__card qld__card__action   qld__card--image qld__card--dark ">
 
-											<div class="qld__responsive-media-img--bg" style="background-image: url('img/safer.jpg');">
+											<div class="qld__responsive-media-img--bg" style="background-image: url('img/housing.jpg');">
 											</div>
 
 											<div class="qld__card__inner">
@@ -1615,137 +1230,135 @@
 													<div class="qld__card__content-inner">
 														<h3 class="qld__card__title">
 															<a aria-label="Card title" aria-describedby="card-351205" class="qld__card--clickable__link"
-																href="javascript:void(0);">Making Queensland safer</a>
+																href="javascript:void(0);">A better lifestyle through a stronger economy</a>
 														</h3>
 
 														<p id="card-351205" class="qld__card__description">
-															Delivering tough laws to restore safety where you live.
+															A new nation-leading home ownership scheme to reduce the deposit gap.
 														</p>
 													</div>
 												</div>
-												<!-- Card footer -->
-												<div class="qld__card__footer">
-													<div class="qld__card__footer-inner">
-														<ul class="qld__card__tags qld__tag-list" style="margin-top: 1rem;">
-															<li class="qld__tag" tabindex="0">Crime and Law</li>
-															<li class="qld__tag" tabindex="0">Initiative</li>
-														</ul>
-													</div>
-												</div>
+
 											</div>
 										</div>
 									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<!-- QLD Single action -->
-										<div class="qld__card qld__card__action qld__card__action">
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<!-- Card Content -->
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Play On! Queensland</a>
-														</h3>
-														<!-- Card Description -->
-														<p class="qld__card__description">Queensland families can claim a $200 Play On! voucher per child aged between
-															five and 17.
-														</p>
-													</div>
-												</div>
-												<!-- Card footer -->
-												<div class="qld__card__footer">
-													<div class="qld__card__footer-inner">
-														<ul class="qld__card__tags qld__tag-list" style="margin-top: 1rem;">
-															<li class="qld__tag" tabindex="0">Community support</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-
-									<li class="col-xs-12 col-md-6 col-lg-4">
-
-										<!-- QLD Single action -->
-										<div class="qld__card qld__card__action qld__card__action">
-											<!-- Card Inner -->
-											<div class="qld__card__inner">
-												<!-- Card Content -->
-												<div class="qld__card__content">
-													<div class="qld__card__content-inner">
-														<!-- Card Ttile -->
-														<h3 class="qld__card__title">
-															<a class="qld__card--clickable__link" href="javascript:void(0);">Apprenticeships work for
-																everyone</a>
-														</h3>
-														<!-- Card Description -->
-														<p class="qld__card__description">
-															With Queensland Government incentives available to employ an apprentice or trainee, now is the time
-															to expand your business.
-														</p>
-													</div>
-												</div>
-												<!-- Card footer -->
-												<div class="qld__card__footer">
-													<div class="qld__card__footer-inner">
-														<ul class="qld__card__tags qld__tag-list" style="margin-top: 1rem;">
-															<li class="qld__tag" tabindex="0">Business</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-
-								<li class="col-xs-12 col-md-6 col-lg-4">
-									<!-- QLD Single action -->
-									<div class="qld__card qld__card__action qld__card__action">
-										<!-- Card Inner -->
-										<div class="qld__card__inner">
-											<!-- Card Content -->
-											<div class="qld__card__content">
-												<div class="qld__card__content-inner">
-													<!-- Card Ttile -->
-													<h3 class="qld__card__title">
-														<a class="qld__card--clickable__link" href="javascript:void(0);">Disaster support and recovery</a>
-													</h3>
-													<!-- Card Description -->
-													<p class="qld__card__description">
-														Financial and support services for people impacted by disasters and emergencies.
-													</p>
-												</div>
-											</div>
-											<!-- Card footer -->
-											<div class="qld__card__footer">
-												<div class="qld__card__footer-inner">
-													<ul class="qld__card__tags qld__tag-list" style="margin-top: 1rem;">
-														<li class="qld__tag" tabindex="0">Disasters</li>
-														<li class="qld__tag" tabindex="0">Community support</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
 								</ul>
+							</div>
+							<div class="row">
+
+								<div class="col-xs-12 col-md-6 col-lg-4" style="margin-top: 2.5rem;">
+
+									<h4><a href="#sssss">2025-26 Queensland Budget</a></h4>
+									<p style="margin-top: 0.75rem;">The Budget is a bold, practical plan to
+										tackle the biggest challenges we're facing across the state.</p>
+									<p style="margin-top: 0.5rem;" class="qld__caption">25 June 2025</p>
+
+								</div>
+
+								<div class="col-xs-12 col-md-6 col-lg-4"  style="margin-top: 2.5rem;">
+
+									<h4><a href="#aaaaaa">Play On! Queensland</a></h4>
+									<p style="margin-top: 0.75rem;">Queensland families can claim a $200 Play On! voucher per child aged between five and 17.</p>
+									<p style="margin-top: 0.5rem;"class="qld__caption">15 June 2025</p>
+
+								</div>
+
+								<div class="col-xs-12 col-md-6 col-lg-4"  style="margin-top: 2.5rem;">
+
+									<h4><a href="#jjdrt">A place to call home</a></h4>
+									<p style="margin-top: 0.75rem;">A range of initiatives to help more Queenslanders secure a place to call home.</p>
+									<p style="margin-top: 0.5rem;"class="qld__caption">4 May 2025</p>
+
+								</div>
+
+								<div class="col-xs-12 col-md-6 col-lg-4" style="margin-top: 2.5rem;">
+
+									<h4><a href="#holaskmdf">Destination 2045</a></h4>
+									<p style="margin-top: 0.75rem;">We've launched a bold plan for delivering Queensland's tourism future.</p>
+									<p style="margin-top: 0.75rem;"class="qld__caption">28 April 2025</p>
+
+								</div>
+
+								<div class="col-xs-12 col-md-6 col-lg-4" style="margin-top: 2.5rem;">
+
+									<h4><a href="#holaskmdf">Disaster support and recovery</a></h4>
+									<p style="margin-top: 0.75rem;">Financial and support services for people impacted by disasters and emergencies.</p>
+									<p style="margin-top: 0.5rem;"class="qld__caption">17 April 2025</p>
+
+								</div>
+
+
+								<div class="col-xs-12 col-md-6 col-lg-4" style="margin-top: 2.5rem;">
+
+									<h4><a href="#jjjjjj">Apprenticeships work for everyone</a></h4>
+									<p style="margin-top: 0.75rem;">With incentives available to employ an apprentice or trainee, now is the time
+									to expand your business.</p>
+									<p style="margin-top: 0.5rem;" class="qld__caption">12 March 2025</h>
+
+
+								</div>
+
 							</div>
 
 							<div class="row">
-								<div class="qld__card-list__footer col-xs-12">
-									<a class="qld__card-list__all-link qld__cta-link qld__cta-link--view-all"
-										href="https://qhonline.com.au/colourgenerator/home">View more news</a>
+								<div class="qld__card-list__footer col-xs-12" style="margin-top: 2.5rem;">
+									<button type="button" class="qld__btn qld__btn--secondary qld__btn--icon-trail">View more news
+										<!-- <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width="20px" height="24px" style="vertical-align: bottom; margin-left: 0.25rem;">
+											<path fill='currentColor'
+												d='M283.3 148.7c-6.25-6.25-16.38-6.25-22.62 0s-6.25 16.38 0 22.62L329.4 240H144C135.2 240 128 247.2 128 256s7.156 16 16 16h185.4l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.62s16.38 6.25 22.62 0l96-96C382.4 264.2 384 260.1 384 256s-1.562-8.188-4.688-11.31L283.3 148.7zM256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 480c-123.5 0-224-100.5-224-224s100.5-224 224-224s224 100.5 224 224S379.5 480 256 480z' />
+										</svg> -->
+									</button>
 								</div>
 							</div>
-
-
 						</div>
 
 
+
+
+
 					</section>
+
+					<!-- HAVE YOUR SAY -->
+					<section class="qld__body qld__body--dark qld__promo-panel qld__promo-panel--image-left"
+						style="padding-top: 1em !important">
+						<div class=" container-fluid">
+							<div class="qld__promo-panel__container row">
+								<div class="qld__promo-panel__container-image">
+									<div class="qld__promo-panel__image" style="background-image: url(img/have-your-say.jpg)">
+									</div>
+								</div>
+								<div class="qld__promo-panel__container-content">
+									<div class="qld__promo-panel__container-inner">
+										<!-- <div class="qld__promo-panel__container-icon">
+																									<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+																										<path
+																											d="M7.84216 23.5263L4.82034 26.5481C4.48348 26.885 4.09588 26.9621 3.65753 26.7794C3.21918 26.5967 3 26.2673 3 25.7911V5.14021C3 4.55225 3.20971 4.04855 3.62913 3.62913C4.04855 3.20971 4.55225 3 5.14021 3H26.8598C27.4478 3 27.9514 3.20971 28.3709 3.62913C28.7903 4.04855 29 4.55225 29 5.14021V21.3861C29 21.9741 28.7903 22.4778 28.3709 22.8972C27.9514 23.3166 27.4478 23.5263 26.8598 23.5263H7.84216ZM7.09842 21.8069H26.8598C26.9649 21.8069 27.0614 21.7631 27.1492 21.6755C27.2368 21.5877 27.2806 21.4912 27.2806 21.3861V5.14021C27.2806 5.03507 27.2368 4.9386 27.1492 4.85079C27.0614 4.76321 26.9649 4.71942 26.8598 4.71942H5.14021C5.03507 4.71942 4.9386 4.76321 4.85079 4.85079C4.76321 4.9386 4.71942 5.03507 4.71942 5.14021V24.2807L7.09842 21.8069ZM10.2947 14.4229C10.6297 14.4229 10.9153 14.3049 11.1513 14.0688C11.3874 13.8328 11.5054 13.5472 11.5054 13.2122C11.5054 12.8771 11.3874 12.5916 11.1513 12.3556C10.9153 12.1197 10.6297 12.0018 10.2947 12.0018C9.95375 12.0018 9.66672 12.1197 9.43363 12.3556C9.20077 12.5916 9.08434 12.8771 9.08434 13.2122C9.08434 13.5472 9.20077 13.8328 9.43363 14.0688C9.66672 14.3049 9.95375 14.4229 10.2947 14.4229ZM16.051 14.4229C16.386 14.4229 16.6716 14.3049 16.9076 14.0688C17.1434 13.8328 17.2613 13.5472 17.2613 13.2122C17.2613 12.8771 17.1434 12.5916 16.9076 12.3556C16.6716 12.1197 16.386 12.0018 16.051 12.0018C15.7159 12.0018 15.4304 12.1197 15.1943 12.3556C14.9583 12.5916 14.8403 12.8771 14.8403 13.2122C14.8403 13.5472 14.9583 13.8328 15.1943 14.0688C15.4304 14.3049 15.7159 14.4229 16.051 14.4229ZM21.6913 14.4229C22.0263 14.4229 22.3118 14.3049 22.5479 14.0688C22.7837 13.8328 22.9016 13.5472 22.9016 13.2122C22.9016 12.8771 22.7837 12.5916 22.5479 12.3556C22.3118 12.1197 22.0263 12.0018 21.6913 12.0018C21.3562 12.0018 21.0707 12.1197 20.8346 12.3556C20.5986 12.5916 20.4806 12.8771 20.4806 13.2122C20.4806 13.5472 20.5986 13.8328 20.8346 14.0688C21.0707 14.3049 21.3562 14.4229 21.6913 14.4229Z"
+																											fill="#FFE500" />
+																									</svg>
+																								</div> -->
+
+										<h2 class="qld__display-xl">Have your say</h2>
+										<div class="qld__abstract">
+											<p>Help shape government decisions that affect you and your community.</p>
+										</div>
+										<p>Share your comments and feedback on new projects, services and government policy.</p>
+										<ul class="qld__promo-panel__container-btn qld__banner__content--cta qld__link-list">
+											<!-- 										<li>
+																										<a class="qld__promo-panel__btn qld__btn qld__btn--primary" data-type="class"
+																											href="#jy">Have your say</a>
+																									</li> -->
+											<li>
+												<a class="qld__promo-panel__btn qld__btn qld__btn--secondary" data-type="class" href="#jy">Have your
+													say</a>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
 
 					<!--QLD GOVERNMENT-->
 					<section class="qld__body qld__body--full-width">
@@ -1765,7 +1378,7 @@
 											<ul aria-label="Related links" class="qld__link-columns qld__link-columns--1-col" style="margin-top: 0;">
 												<li><a href="#kjhgfd">About Queensland Government</a></li>
 												<li><a href="#awyedf">Departments</a></li>
-												<li><a href="#eueszsdzg">Grants and assistance programs</a></li>
+												<li><a href="#eueszsdzag">Grants and assistance programs</a></li>
 												<li><a href="#hsrksz">Jobs in government</a></li>
 												<li><a href="#gaawta">For government employees</a></li>
 											</ul>
@@ -1780,26 +1393,42 @@
 
 								<div class="col-xs-12 col-md-5 col-lg-4">
 
-									<!-- QLD Single action default with image -->
-									<div class="qld__card qld__card__action  qld__card--image qld__card--light custom-class1">
+									<img src="img/qldpremier.jpg" class="qld__responsive-media-img mt-mobile" />
 
-										<div class="qld__responsive-media-img--bg" style="background-image: url('img/qldpremier.jpg');">
-										</div>
+									<h3 style="margin-top: 1rem;">
+										<a href="https://www.thepremier.qld.gov.au">Premier of Queensland</a>
+									</h3>
 
-										<div class="qld__card__inner">
-											<div class="qld__card__content">
-												<div class="qld__card__content-inner">
-													<h3 class="qld__card__title">
-														<a aria-label="Card title" aria-describedby="card-351205" class="qld__card--clickable__link"
-															href="javascript:void(0);">Premier of Queensland</a>
-													</h3>
+									<p style="margin-top: 0.75rem;"><a href="https://cabinet.qld.gov.au/ministers-portfolios/david-crisafulli.aspx#_contact">Contact</a> the Premier David Crisafulli or find out more about the <a href="https://cabinet.qld.gov.au/ministers-portfolios.aspx">current ministry</a>.
+									</p>
 
-													<p id="card-351205" class="qld__card__description">
-														Contact the Premier David Crisafulli MP or find out more about the current ministry.
-													</p>
-												</div>
-											</div>
-										</div>
+									<div class="row custom-class1">
+										<!-- <ul class="qld__card-list qld__card-list--matchheight">
+
+																			<li class="col-xs-12 col-md-6 col-lg-12">
+																				<div class="qld__card qld__card__action   qld__card--image qld__card--dark ">
+
+																					<div class="qld__responsive-media-img--bg" style="background-image: url('img/premier.jpg');">
+																					</div>
+
+																					<div class="qld__card__inner">
+																						<div class="qld__card__content">
+																							<div class="qld__card__content-inner">
+																								<h3 class="qld__card__title">
+																									<a aria-label="Card title" aria-describedby="card-351205" class="qld__card--clickable__link"
+																										href="javascript:void(0);">Premier of Queensland</a>
+																								</h3>
+
+																								<p id="card-351205" class="qld__card__description">
+																									Contact the Premier David Crisafulli MP or find out more about the current ministry.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</li>
+
+																		</ul> -->
 									</div>
 
 								</div>
@@ -1815,41 +1444,6 @@
 
 					</section>
 
-<!--
-					<section class="qld__body qld__body--alt qld__body--full-width" style="padding-top: 2.5em;padding-bottom: 2.5em;">
-
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-xs-12">
-
-
-								<fieldset class="qld__fieldset" aria-describedby="radio-example-hint">
-
-									<legend class="qld__fieldset__legend">
-										Was this page helpful?
-									</legend>
-
-									<div class="qld_form-field qld__control-group" style="margin-top: 0.3em;">
-
-										<div class="qld__control-input qld__control-input" style="display: inline-block; margin-right: 1.5em;">
-											<input class="qld__control-input__input" type="radio" name="1-radio-ex" id="1-rb-laptop" role="radio"
-												aria-checked="false">
-											<label class="qld__control-input__text" for="1-rb-laptop">Yes</label>
-										</div>
-
-										<div class="qld__control-input qld__control-input" style="display: inline-block;">
-											<input class="qld__control-input__input" type="radio" name="1-radio-ex" id="1-rb-phone" role="radio"
-												aria-checked="false">
-											<label class="qld__control-input__text" for="1-rb-phone">No</label>
-										</div>
-
-									</div>
-								</fieldset>
-							</div>
-						</div>
-					</div>
-
-					</section> -->
 
 					<!--ABOUT QLD GOV-->
 					<!-- <section class="qld__body qld__body--full-width qld__body">
