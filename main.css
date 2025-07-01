@@ -76,14 +76,14 @@ div.qld__mega-nav_mobile-filler-120 {
 	-webkit-box-shadow: none !important;
 }
 
-.nocards .qld__card.qld__card--icon-left .qld__card__icon {
+/*.nocards .qld__card.qld__card--icon-left .qld__card__icon {
 	width: 3rem !important;
 	height: 3rem !important;
 }
 
-.nocards .qld__card.qld__card--icon .qld__card__icon {
+ .nocards .qld__card.qld__card--icon .qld__card__icon {
 	background-color: transparent;
-}
+} */
 
 .qld__body .qld__card-list.nocards>li {
 	margin-top: 1rem;
