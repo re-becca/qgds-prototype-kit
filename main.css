@@ -70,7 +70,7 @@ div.qld__mega-nav_mobile-filler-120 {
 
 /* Cards without borders or padding or elevation */
 
-.nocards .qld__card {
+.nocards .qld__card, .noborders .qld__card {
 	border: none;
 	box-shadow: none !important;
 	-webkit-box-shadow: none !important;
