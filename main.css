@@ -55,6 +55,10 @@ div.qld__mega-nav_mobile-filler-120 {
 	text-wrap: pretty;
 }
 
+.qld__global-alert.qld__global-alert--default a:visited {
+	color: #222020 !important;
+}
+
 @media (min-width: 400px) {
 	.qld__global-alert .qld__global-alert__main {
 		align-items: center;
@@ -77,8 +81,10 @@ div.qld__mega-nav_mobile-filler-120 {
 }
 
 .nocards .qld__card.qld__card--icon-left .qld__card__icon {
-	width: 3rem !important;
-	height: 3rem !important;
+	/* width: 3rem !important;
+	height: 3rem !important; */
+	justify-content: left;
+	width: 3rem;
 }
 
  .nocards .qld__card.qld__card--icon .qld__card__icon {
