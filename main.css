@@ -108,6 +108,13 @@ div.qld__mega-nav_mobile-filler-120 {
  margin: 0 !important;
 }
 
+@media (min-width: 992px){
+	.qld__body .qld__card-list .col-lg-6:nth-of-type(-n + 3) {
+		margin-top: 0px;
+		margin-top: 0rem
+	}
+}
+
 
 .newscards .row .col-md-6 {
 	margin-top: 2.5rem;
