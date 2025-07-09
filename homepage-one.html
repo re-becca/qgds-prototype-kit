@@ -58,9 +58,58 @@
 			.qld__grid ::before,
 			.qld__grid ::after {
 
-			/* Color - Monochrome */
+			/* Color - Monochromatic */
 
-			--QLD-color-light__background: #EDF8FF;
+			--QLD-color-light__background: #E9F7FF;
+			--QLD-color-light__background--shade: #D9F1FF;
+			--QLD-color-light__background--alt: #E8E8E8;
+			--QLD-color-light__background--alt-shade: #E0E0E0;
+			--QLD-color-light__border: #BEDFFF;
+			--QLD-color-light__border--alt: #848484;
+			--QLD-color-light__action--primary: #005EB8;
+			--QLD-color-light__action--primary-hover: #002E85;
+			--QLD-color-light__action--secondary: #307EDB;
+			--QLD-color-light__action--secondary-hover: #004EA7;
+			--QLD-color-light__link--on-action: #F5FAFF;
+			--QLD-color-light__link: #005EB8;
+			--QLD-color-light__text--visited: #551A8B;
+			--QLD-color-light__design-accent: #84D3FF;
+			--QLD-color-light__focus: #1C6ECA;
+			--QLD-color-light__heading: #000764;
+			--QLD-color-light__text: #414141;
+			--QLD-color-light__text--lighter: #636363;
+			--QLD-color-light__underline: #3F7AB4;
+			--QLD-color-light__underline--hover: var(--light-link-link);
+			--QLD-color-light__underline--visited: #8B63B0;
+			--QLD-color-light__underline--hover-visited: var(--light-link-visited);
+			--QLD-color-light__site-title: #001D74;
+
+			--QLD-color-dark__background: #005EB8;
+			--QLD-color-dark__background--shade: #003E96;
+			--QLD-color-dark__background--alt: #002E85;
+			--QLD-color-dark__background--alt-shade: #001D74;
+			--QLD-color-dark__border: #63B1FF;
+			--QLD-color-dark__border--alt: #95E5FF;
+			--QLD-color-dark__action--primary: #84D3FF;
+			--QLD-color-dark__action--primary-hover: #A6F7FF;
+			--QLD-color-dark__action--secondary: #84D3FF;
+			--QLD-color-dark__action--secondary-hover: #A6F7FF;
+			--QLD-color-dark__link--on-action: #001C37;
+			--QLD-color-dark__link: #FFFFFF;
+			--QLD-color-dark__link--visited: #E1BBEE;
+			--QLD-color-dark__design-accent: #84D3FF;
+			--QLD-color-dark__focus: #B2FFFF;
+			--QLD-color-dark__heading: #FFFFFF;
+			--QLD-color-dark__text: #FFFFFF;
+			--QLD-color-dark__text--lighter: #DEEBF9;
+			--QLD-color-dark__underline: #B5CCE2;
+			--QLD-color-dark__underline--hover: var(--dark-link-link);
+			--QLD-color-dark__underline--visited: #E1C2FF;
+			--QLD-color-dark__underline--hover-visited: var(--dark-underline-visited);
+			--QLD-color-dark__site-title: #FFFFFF;
+
+
+			/* --QLD-color-light__background: #EDF8FF;
 			--QLD-color-light__background--shade: #DDF1FF;
 			--QLD-color-light__background--alt: #E8E8E8;
 			--QLD-color-light__background--alt-shade: #E0E0E0;
@@ -81,7 +130,7 @@
 			--QLD-color-light__text--lighter: #636363;
 			--QLD-color-light__underline: #3F7AB4;
 			--QLD-color-light__underline--hover: var(--light-Link-Link);
-			--QLD-color-light__underline__visited: #8B63B0;
+			--QLD-color-light__underline--visited: #8B63B0;
 			--QLD-color-light__underline--hover-visited: var(--light-link-visited);
 			--QLD-color-light__site-title: #002F5C;
 
@@ -107,7 +156,7 @@
 			--QLD-color-dark__underline--hover: var(--dark-link-link);
 			--QLD-color-dark__underline--visited: #E1C2FF;
 			--QLD-color-dark__underline--hover-visited: var(--dark-underline-visited);
-			--QLD-color-dark__site-title: #FFFFFF;
+			--QLD-color-dark__site-title: #FFFFFF; */
 			}
 
 			section.main-nav-qg ul {
@@ -128,7 +177,7 @@
 
 	<body class="qld__grid">
 
-			<section class="qld__body qld__global-alerts">
+			<!-- <section class="qld__body qld__global-alerts">
 				<div class="qld__global_alert_include">
 					<div role="region" aria-label="Alert" class="qld__global-alert qld__global-alert--critical">
 						<div class="container-fluid">
@@ -208,7 +257,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 			<!-- Main header container with banner role -->
 			<header class="qld__header horizontal-example" role="banner">
@@ -831,12 +880,10 @@
 
 												<div class="col-xs-12 col">
 
-													<!-- Main container for the warning alert with role 'region' and an accessible label 'Warning' -->
+													<!-- Main container for the warning alert with role 'region' and an accessible label 'Warning'
 													<div role="region" aria-label="Error" class="qld__page-alerts qld__page-alerts--svg qld__page-alerts--error">
 
-														<!-- Container for the warning alert icon -->
 														<div class="qld__page-alerts__icon">
-															<!-- SVG icon representing the info state, labeled as 'Info' for accessibility -->
 															<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path
 																	d="M29.8 10.2C29.7 9.9 29.5 9.6 29.2 9.4L22.6 2.8C22.4 2.6 22.1 2.4 21.8 2.2C21.5 2.1 21.1 2 20.8 2H11.3C11 2 10.6 2.1 10.3 2.2C9.9 2.3 9.6 2.5 9.4 2.8L2.8 9.4C2.6 9.6 2.4 9.9 2.2 10.2C2.1 10.5 2 10.9 2 11.2V20.7C2 21 2.1 21.4 2.2 21.7C2.3 22 2.5 22.3 2.8 22.5L9.4 29.1C9.6 29.3 9.9 29.5 10.2 29.7C10.5 29.8 10.9 29.9 11.2 29.9H20.7C21 29.9 21.4 29.8 21.7 29.7C22 29.6 22.3 29.4 22.5 29.1L29.1 22.5C29.3 22.3 29.5 22 29.7 21.7C29.8 21.4 29.9 21 29.9 20.7V11.2C30 10.9 29.9 10.6 29.8 10.2ZM27.9 21L20.9 28H11L4 21V11L11 4H21L28 11V21H27.9ZM15.3 17.7C15.1 17.5 15 17.3 15 17V9C15 8.7 15.1 8.5 15.3 8.3C15.5 8.1 15.7 8 16 8C16.3 8 16.5 8.1 16.7 8.3C16.9 8.5 17 8.7 17 9V17C17 17.3 16.9 17.5 16.7 17.7C16.5 17.9 16.3 18 16 18C15.7 18 15.5 17.9 15.3 17.7ZM17 20.9C17.3 21.2 17.4 21.5 17.4 21.9C17.4 22.3 17.3 22.6 17 22.9C16.7 23.2 16.4 23.3 16 23.3C15.6 23.3 15.3 23.2 15 22.9C14.7 22.6 14.6 22.3 14.6 21.9C14.6 21.5 14.7 21.2 15 20.9C15.3 20.6 15.6 20.5 16 20.5C16.4 20.5 16.7 20.6 17 20.9Z"
@@ -844,19 +891,16 @@
 															</svg>
 														</div>
 
-														<!-- Heading for the warning message -->
 														<h2 class="qld__page-alerts--heading qld__display-lg">Tropical Cyclone Alfred</h2>
 
 														<p><a href="#sdhefh">Go to disaster.qld.gov.au</a></p>
 
-													</div>
+													</div>-->
 
-													<!-- Main container for the warning alert with role 'region' and an accessible label 'Warning' -->
+													<!-- Main container for the warning alert with role 'region' and an accessible label 'Warning'
 													<div role="region" aria-label="Warning" class="qld__page-alerts qld__page-alerts--svg qld__page-alerts--warning" style="margin-top:1.5rem;">
 
-														<!-- Container for the warning alert icon -->
 														<div class="qld__page-alerts__icon">
-															<!-- SVG icon representing the info state, labeled as 'Info' for accessibility -->
 															<svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path
 																	d="M16 22.5C15.6 22.5 15.3 22.6 15.1 22.9C14.9 23.1 14.7 23.4 14.7 23.8C14.7 24.2 14.8 24.5 15.1 24.7C15.3 24.9 15.6 25.1 16 25.1C16.4 25.1 16.7 25 16.9 24.7C17.1 24.5 17.3 24.2 17.3 23.8C17.3 23.4 17.2 23.1 16.9 22.9C16.6 22.6 16.4 22.5 16 22.5ZM29.8 26.7L17 4.6C16.9 4.4 16.7 4.3 16.6 4.2C16.4 4 16.2 4 16 4C15.8 4 15.6 4 15.4 4.1C15.2 4.2 15.1 4.3 15 4.5L2.2 26.7C2 26.9 2 27.1 2 27.3C2 27.5 2.1 27.7 2.2 27.8C2.3 28 2.4 28.1 2.6 28.2C2.8 28.3 3 28.4 3.2 28.4H28.9C29.1 28.4 29.3 28.3 29.5 28.2C29.7 28.1 29.8 28 29.9 27.8C30 27.6 30.1 27.5 30.1 27.3C30 27.1 30 26.9 29.8 26.7ZM4.4 26.6L16 6.5L27.6 26.6H4.4ZM15.3 12.7C15.1 12.9 15 13.1 15 13.4V19.4C15 19.7 15.1 19.9 15.3 20.1C15.5 20.3 15.7 20.4 16 20.4C16.3 20.4 16.5 20.3 16.7 20.1C16.9 19.9 17 19.7 17 19.4V13.4C17 13.1 16.9 12.9 16.7 12.7C16.5 12.5 16.3 12.4 16 12.4C15.7 12.5 15.5 12.5 15.3 12.7Z"
@@ -865,13 +909,12 @@
 
 														</div>
 
-														<!-- Heading for the warning message -->
 														<h2 class="qld__page-alerts--heading qld__display-lg">Western Queensland floods</h2>
 
 														<p><a href="#sdhefh">Go to disaster.qld.gov.au</a></p>
 
 													</div>
-
+													-->
 
 												</div>
 
