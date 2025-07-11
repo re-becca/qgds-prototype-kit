@@ -87,7 +87,7 @@ div.qld__mega-nav_mobile-filler-120 {
 	width: 3rem;
 }
 
- .nocards .qld__card.qld__card--icon .qld__card__icon {
+.nocards .qld__card.qld__card--icon .qld__card__icon {
 	background-color: transparent;
 }
 
@@ -125,8 +125,6 @@ div.qld__mega-nav_mobile-filler-120 {
 			margin-top: 0;
 	}
 }
-
-
 
 /* Custom link list columns with icons */
 
@@ -270,9 +268,9 @@ a:hover.qld__tag,
 	.card-top-margin {
 		margin-top: 1.5rem;
 	}
-				.mt-mobile {
-					margin-top: 2.5em;
-				}
+		.mt-mobile {
+			margin-top: 2.5em;
+		}
 }
 
 .qld__body .qld__accordion__body-wrapper {
@@ -33389,7 +33387,7 @@ li+li .qld__accordion {
 
 .qld__banner.qld__banner--has-hero .qld__banner__content {
 	padding-top: 16px;
-	padding-top: 1rem
+	padding-top: 2rem
 }
 
 @media(min-width: 699px) {
